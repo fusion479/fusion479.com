@@ -17,7 +17,7 @@ class HeaderTemplate extends HTMLElement {
                     <li><a href="#">link three</a></li>
                     <li><a href="#">link four</a></li>
                     <li><a href="#">Sponsors</a></li>
-                    <li><a href="donate.html" class="donation">Donate</a></li>
+                    <li><a href="/pages/donate.html" class="donation">Donate</a></li>
                 </ul>
             </header>
         `

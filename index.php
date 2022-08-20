@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>479</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 </head>
 <body>
-    <header-template></header-template>
+    <?php
+        include_once(`header.php`);
+    ?>
     
     
     <div class="middle">
@@ -19,7 +21,7 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="../images/shrek.jpg"></div>
+                <div class="swiper-slide"><img src="images/shrek.jpg"></div>
                 <div class="swiper-slide"><img src="https://cdn.mos.cms.futurecdn.net/6qjeRs8BAtdLbWogptHLiF.jpg"></div>
                 <div class="swiper-slide"><img src="https://cdn.britannica.com/07/183407-050-C35648B5/Chicken.jpg"></div>
                 
@@ -33,10 +35,14 @@
             </div>
         </div>
 
+        <!-- for the text below the image slider-->
         <div class="index-text">
+            <!-- left section -->
             <div class="left">
                 hello
             </div>
+
+            <!-- right section -->
             <div class="right">
                 <div class="heading"> About Us
                     <div class="subtext">
@@ -46,6 +52,7 @@
                 <div class="heading"> section 2
                 </div>
             </div>
+            
         </div>
 
     </div>
@@ -54,9 +61,9 @@
     <footer-template></footer-template>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="js/main.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="../js/slider.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
