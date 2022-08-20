@@ -4,18 +4,20 @@ class HeaderTemplate extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <header class="nav">
-                <div class="logo">
-                    <div class="one">479</div>
-                    <div class="two">STUY</div>
-                    <div class="three">FUSION</div>
-                </div>
+                <a href="index.html">
+                    <div class="logo">
+                        <div class="one">479</div>
+                        <div class="two">STUY</div>
+                        <div class="three">FUSION</div>
+                    </div>
+                </a>
                 <ul>
                     <li><a href="#">Team News</a></li>
                     <li><a href="#">link two</a></li>
                     <li><a href="#">link three</a></li>
                     <li><a href="#">link four</a></li>
                     <li><a href="#">Sponsors</a></li>
-                    <li><a href="#" class="donation">Donate</a></li>
+                    <li><a href="donate.html" class="donation">Donate</a></li>
                 </ul>
             </header>
         `
@@ -37,9 +39,6 @@ class FooterTemplate extends HTMLElement {
             </div>
             <div class="copyright">© StuyFusion</div>
         </div>
-
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         `
     }
 }
