@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar css*/
+.nav {
+    padding: 0px 250px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    box-shadow: 0px 0px 25px 2px rgb(205, 244, 250);
+}
+
+.nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav .logo .one{
+    color: black;
+}
+
+.nav .logo .two{
+    color:rgb(66, 213, 236);
+}
+
+.nav .logo .three{
+    color: rgb(233, 141, 237);
+}
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    transition: 0.2s;
+}
+
+.nav a:hover {
+    color: rgb(66, 213, 236);
+}
+
+/* middle */
+.middle {
+    min-height: 900px;
+}
+
+
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 242, 255);
+    height: 120px;
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 20px;
+    color: gray;
+    font-size: 40px;
+}
+
+.icon {
+    color: rgb(103, 103, 103);
+    transition: 0.2s;
+}
+
+.icon:hover {
+    color:rgb(237, 132, 201);
+}
+
