@@ -27,10 +27,10 @@ class FooterTemplate extends HTMLElement {
         this.innerHTML = `
         <div class="footer">
             <div class="social-icons">
-                <a class="icon" href="https://github.com/fusion479">
+                <a class="icon" href="https://github.com/fusion479" target="_blank">
                     <ion-icon name="logo-github"></ion-icon>
                 </a>
-                <a class="icon" href="https://www.instagram.com/StuyFusion">
+                <a class="icon" href="https://www.instagram.com/StuyFusion" target="_blank">
                     <ion-icon name="logo-instagram"></ion-icon>
                 </a>
             </div>
