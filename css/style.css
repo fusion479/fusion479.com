@@ -190,4 +190,5 @@ body {
 
 ion-icon {
     font-size: 32px;
+    font-family: initial !important;
 }
