@@ -1,0 +1,30 @@
+.news-box {
+    margin-top: 50px;
+    width: 500px;
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px -15px black;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: 0.2s;
+
+    color: black;
+    text-decoration: none;
+}
+
+.news-box:hover {
+    transform: scale(1.05);
+}
+
+.news-title {
+    font-size: 24px;
+    color: rgb(66,213,236);
+    font-weight: 600;
+}
+
+.news-caption {
+    margin-top: 8px;
+    font-size: 14px;
+}
