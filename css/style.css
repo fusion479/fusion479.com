@@ -17,7 +17,7 @@ body {
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 25px 2px rgb(205, 244, 250);
+    box-shadow: 0px 0px 25px -10px /*rgb(205, 244, 250);*/ black;
     position: fixed;
     top: 0;
     width: 69%;
@@ -92,7 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -100,7 +100,6 @@ body {
 /* img slider for index page */
 
 .swiper {
-    margin-top: 50px;
     display: flex;
     height: 450px;
     width: 900px;

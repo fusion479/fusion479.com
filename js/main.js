@@ -24,9 +24,9 @@ class HeaderTemplate extends HTMLElement {
                 </a>
                 <ul>
                     <li><a href="${linkdir}team-news.html">Team News</a></li>
-                    <li><a href="${linkdir}#">link two</a></li>
-                    <li><a href="${linkdir}#">link three</a></li>
-                    <li><a href="${linkdir}#">link four</a></li>
+                    <li><a href="${linkdir}link-two.html">link two</a></li>
+                    <li><a href="${linkdir}link-three.html">link three</a></li>
+                    <li><a href="${linkdir}link-four.html">link four</a></li>
                     <li><a href="${linkdir}sponsors.html">Sponsors</a></li>
                     <li><a href="${linkdir}donate.html" class="donation">Donate</a></li>
                 </ul>
