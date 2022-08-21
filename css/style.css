@@ -177,7 +177,6 @@ body {
     display: flex;
     gap: 20px;
     color: gray;
-    font-size:40px;
 }
 
 .icon {
@@ -189,3 +188,6 @@ body {
     color:rgb(237, 132, 201);
 }
 
+ion-icon {
+    font-size: 32px;
+}
