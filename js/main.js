@@ -1,10 +1,21 @@
 console.log(10)
 
+var fileLoc = window.location.pathname;
+var currentDir = fileLoc.substring(0, fileLoc.lastIndexOf("/"));
+currentDir = currentDir.substring(currentDir.lastIndexOf("/")+1);
+
+//checks if the html file is in pages folder, if it is, adds ../ to the header links
+if (currentDir === "pages"){
+    var linkdir = "../";
+} else {
+    var linkdir = "";
+}
+
 class HeaderTemplate extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <header class="nav">
-                <a href="index.html">
+                <a href="${linkdir}index.html">
                     <div class="logo">
                         <div class="one">479</div>
                         <div class="two">STUY</div>
@@ -12,12 +23,12 @@ class HeaderTemplate extends HTMLElement {
                     </div>
                 </a>
                 <ul>
-                    <li><a href="team-news.html">Team News</a></li>
-                    <li><a href="#">link two</a></li>
-                    <li><a href="#">link three</a></li>
-                    <li><a href="#">link four</a></li>
-                    <li><a href="sponsors.html">Sponsors</a></li>
-                    <li><a href="donate.html" class="donation">Donate</a></li>
+                    <li><a href="${linkdir}team-news.html">Team News</a></li>
+                    <li><a href="${linkdir}#">link two</a></li>
+                    <li><a href="${linkdir}#">link three</a></li>
+                    <li><a href="${linkdir}#">link four</a></li>
+                    <li><a href="${linkdir}sponsors.html">Sponsors</a></li>
+                    <li><a href="${linkdir}donate.html" class="donation">Donate</a></li>
                 </ul>
             </header>
         `

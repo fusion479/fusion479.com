@@ -19,9 +19,9 @@ var cards = [
         title: "test",
         date: "August 29, 199293",
         caption: "lol",
-        pagelink: "#",
+        pagelink: "08-29-199293",
     },
-];11
+];
 
 //fullcard is all the boxes combined
 var fullcard = ``;
@@ -29,8 +29,9 @@ var fullcard = ``;
 //goes through cards variable and makes a new box for every dictionary
 cards.forEach (card => {
     var data = Object.values(card);
+    //console.log(data);
     fullcard += `
-    <a href="${data[4]}" class="news-box">
+    <a href="pages/${data[3]}.html" class="news-box">
         <div class="news-title">${data[0]}</div>
         <div class="news-creation">Created on ${data[1]}</div>
         <div class="news-caption">${data[2]}</div>
