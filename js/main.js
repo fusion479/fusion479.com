@@ -12,12 +12,12 @@ class HeaderTemplate extends HTMLElement {
                     </div>
                 </a>
                 <ul>
-                    <li><a href="#">Team News</a></li>
+                    <li><a href="team-news.html">Team News</a></li>
                     <li><a href="#">link two</a></li>
                     <li><a href="#">link three</a></li>
                     <li><a href="#">link four</a></li>
-                    <li><a href="#">Sponsors</a></li>
-                    <li><a href="/pages/donate.html" class="donation">Donate</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="donate.html" class="donation">Donate</a></li>
                 </ul>
             </header>
         `
@@ -46,3 +46,13 @@ class FooterTemplate extends HTMLElement {
 customElements.define("header-template", HeaderTemplate)
 customElements.define("footer-template", FooterTemplate)
     
+//current page's name
+const activePage = window.location.pathname;
+
+const navLinks = document.querySelectorAll(".nav ul a").
+forEach(link => {
+    //checks each navbar link's location and if they point to activePage make them active
+    if(link.href.includes(`${activePage}`)){
+        link.classList.add("active");
+    }
+})
