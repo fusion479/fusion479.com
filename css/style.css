@@ -1,6 +1,6 @@
-* {
+/** {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+}*/
 
 
 body {
@@ -190,5 +190,4 @@ body {
 
 ion-icon {
     font-size: 32px;
-    font-family: initial !important;
 }
