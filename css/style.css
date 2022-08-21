@@ -21,7 +21,8 @@ body {
     position: fixed;
     top: 0;
     width: 69%;
-    overflow: hidden;
+    height: 60px;
+    overflow: visible;
     z-index: 9999;
 }
 
@@ -46,6 +47,14 @@ body {
     color: rgb(233, 141, 237);
 }
 
+.nav .icon {
+    margin-top: 40px;
+    width: 90px;
+    height: auto;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px -15px black;
+}
 
 .nav ul {
     list-style: none;

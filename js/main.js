@@ -17,6 +17,7 @@ class HeaderTemplate extends HTMLElement {
             <header class="nav">
                 <a href="${linkdir}index.html">
                     <div class="logo">
+                        <img class="icon" src=${linkdir}images/logo-icon.png>
                         <div class="one">479</div>
                         <div class="two">STUY</div>
                         <div class="three">FUSION</div>
