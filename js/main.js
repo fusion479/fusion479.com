@@ -68,3 +68,13 @@ forEach(link => {
         link.classList.add("active");
     }
 })
+
+const logo = document.querySelector(".logo");
+const icon = document.querySelector(".icon");
+logo.addEventListener("mouseover",function(){
+    icon.classList.add("big");
+})
+
+logo.addEventListener("mouseout",function(){
+    icon.classList.remove("big");
+})

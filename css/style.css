@@ -2,6 +2,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.big {
+    transform:scale(1.07);
+}
 
 body {
     display: flex;
@@ -198,4 +201,78 @@ body {
 
 .fa-brands {
     font-size: 32px;
+}
+
+/*file: donate.html*/
+.middle.donate {
+    color: rgb(134, 134, 134);
+}
+
+.sponsors {
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.donation-tiers{
+    display: flex;
+    gap: 30px;
+}
+
+.tier {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid rgb(213, 213, 213);
+    box-shadow: 0px 0px 10px 0px rgb(165, 165, 165);
+
+    width: 240px;
+    height: 360px;
+
+    transition: 0.2s;
+}
+
+.tier .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    letter-spacing: 5px;
+    font-size: 28px;
+    font-weight: 400;
+
+    height: 70px;
+}
+
+.platinum .top {
+    border-bottom: 5px solid rgb(63, 208, 186);
+}
+
+.gold .top {
+    border-bottom: 5px solid rgb(250, 225, 84);
+}
+
+.silver .top {
+    border-bottom: 5px solid rgb(154, 154, 154);
+}
+
+.bronze .top {
+    border-bottom: 5px solid rgb(233, 131, 68);
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 1px solid rgb(213, 213, 213);
+    padding: 13px;
+    font-size: 28px;
+}
+
+.pricing span {
+    font-size: 24px;
+}
+
+.perks {
+    list-style-type: circle;
 }
