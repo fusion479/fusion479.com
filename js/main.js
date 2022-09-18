@@ -11,6 +11,19 @@ if (currentDir === "pages"){
     var linkdir = "";
 }
 
+class HeadBoilerplate extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>479</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/50596a3a4b.js" crossorigin="anonymous"></script>
+        `
+    }
+}
+
 class HeaderTemplate extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -26,7 +39,7 @@ class HeaderTemplate extends HTMLElement {
                 <ul>
                     <li><a href="${linkdir}team-news.html">Team News</a></li>
                     <li><a href="${linkdir}link-two.html">link two</a></li>
-                    <li><a href="${linkdir}link-three.html">link three</a></li>
+                    <li><a href="${linkdir}members.html">Meet the Team</a></li>
                     <li><a href="${linkdir}link-four.html">link four</a></li>
                     <li><a href="${linkdir}sponsors.html">Sponsors</a></li>
                     <li><a href="${linkdir}donate.html" class="donation">Donate</a></li>
@@ -55,8 +68,9 @@ class FooterTemplate extends HTMLElement {
     }
 }
 
-customElements.define("header-template", HeaderTemplate)
-customElements.define("footer-template", FooterTemplate)
+customElements.define("header-boilerplate", HeadBoilerplate);
+customElements.define("header-template", HeaderTemplate);
+customElements.define("footer-template", FooterTemplate);
     
 //current page's name
 const activePage = window.location.pathname;
