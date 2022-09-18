@@ -1,0 +1,28 @@
+.member {
+    display: flex;
+    width: 700px;
+    padding: 20px 70px;
+    border-bottom: 1px solid rgb(83, 83, 83);
+}
+
+.member.border {
+    border-bottom: none;
+}
+
+.member-photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: rgb(83, 83, 83);
+}
+
+.member-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+

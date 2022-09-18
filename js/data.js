@@ -34,4 +34,9 @@ export const memberList = [
         blurb: "I live in a swamp",
         photo: "",
     },
+    {
+        name: "test 1",
+        blurb: "test 1",
+        photo: "",
+    },
 ]

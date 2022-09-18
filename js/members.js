@@ -3,14 +3,21 @@ import { memberList } from "./data.js";
 //fullCard is each card combined to one html
 var fullCard = ``;
 
+//count used to check whether member section is the last
+let count = 0;
+
 memberList.forEach(member => {
+    count ++;
+    let border = ``;
+    //if section is the last one, then it won't have a bottom border
+    if (count == memberList.length) border = `border`;
     var data = Object.values(member);
     fullCard += `
-    <div class="member">
+    <div class="member ${border}">
         <img class="member-photo" src="images/${data[2]}"/>
         <div class="member-description">
-            <div class=member-name">${data[0]}</div>
-            <div class=member-blurb">${data[1]}</div>
+            <div class="member-name">${data[0]}</div>
+            <div class="member-blurb">${data[1]}</div>
         </div>
     </div>
     `
