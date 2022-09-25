@@ -25,7 +25,7 @@ export const newsCards = [
 
 export const memberList = [
     {
-        photo: "",
+        photo: "zawad.jpg",
         name: "Zawad Dewan",
         title: "President",
         blurb: "I've always been a sort of a computer fanatic growing up, hardware and software are just things I find really cool. After joining 479 as a sophomore, I realized this was just the place to foster the skills I would need going forward while also doing something enjoyable with like-minded people. It's worth the time to spend the time working and learning with my teammates through thick and thin. I'm still learning the ropes and getting adjusted to being on the team now that school is in person, but with everyone else's support, I think I'll do just fine. Outside of robotics, my hobbies include playing video games, keeping up with tech, and music.",
