@@ -14,10 +14,11 @@ memberList.forEach(member => {
     var data = Object.values(member);
     fullCard += `
     <div class="member ${border}">
-        <img class="member-photo" src="images/${data[2]}"/>
+        <img class="member-photo" src="images/${data[0]}"/>
         <div class="member-description">
-            <div class="member-name">${data[0]}</div>
-            <div class="member-blurb">${data[1]}</div>
+            <div class="member-name">${data[1]}</div>
+            <div class="member-title">${data[2]}</div>
+            <div class="member-blurb">${data[3]}</div>
         </div>
     </div>
     `
