@@ -23,6 +23,7 @@
     flex-direction: column;
     gap: 8px;
     color: rgb(83, 83, 83);
+    font-weight: 350;
 }
 
 .member-name {
