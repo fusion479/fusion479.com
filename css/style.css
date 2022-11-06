@@ -19,7 +19,7 @@ body {
 
 /*navbar css*/
 .nav {
-    padding: 0px 250px;
+    padding: 0px;
     display: flex;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
@@ -27,7 +27,7 @@ body {
     box-shadow: 0px 0px 25px -10px /*rgb(205, 244, 250);*/ black;
     position: fixed;
     top: 0;
-    width: 61%;
+    width: 100%;
     height: 60px;
     overflow: visible;
     z-index: 9999;
@@ -40,6 +40,7 @@ body {
     color: gray;
     font-weight: 600;
     font-size: 18px;
+    margin-left: 180px;
 }
 
 .nav .logo .one{
@@ -64,6 +65,7 @@ body {
 }
 
 .nav ul {
+    margin-right: 180px;
     list-style: none;
     display: flex;
     gap: 16px;

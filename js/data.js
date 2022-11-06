@@ -10,16 +10,10 @@
 */
 export const newsCards = [
     {
-        title: "First News!",
-        date: "January 08, 2005",
-        caption: "I don't know what to put as a caption",
-        pagelink: "01-08-2005",
-    },
-    {
-        title: "test",
-        date: "August 29, 199293",
-        caption: "lol",
-        pagelink: "08-29-199293",
+        title: "Post-season Summary",
+        date: "November 6, 2022",
+        caption: "A general summary of what we've done since the end of last year's season!",
+        pagelink: "11-06-2022",
     },
 ];
 
