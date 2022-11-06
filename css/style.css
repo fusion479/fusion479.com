@@ -27,7 +27,7 @@ body {
     box-shadow: 0px 0px 25px -10px /*rgb(205, 244, 250);*/ black;
     position: fixed;
     top: 0;
-    width: 69%;
+    width: 61%;
     height: 60px;
     overflow: visible;
     z-index: 9999;
@@ -151,17 +151,19 @@ body {
 }
 
 .section {
-    padding: 10px 250px;
+    padding: 15px 13%;
     display: flex;
     align-items: center;
 }
 
 .section img {
-    height: 450px;
+    max-height: 400px;
+    flex: 1;
 }
 
 .section .title {
     font-size: 48px;
+    flex: 2;
 }
 
 .section .description {
@@ -197,6 +199,12 @@ body {
 .game .learn-more:hover {
     background-color: white;
     color: black;
+}
+
+.team-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-news .text {
@@ -312,7 +320,8 @@ index-news {
     flex-direction: column;
 
     border: 1px solid rgb(213, 213, 213);
-    box-shadow: 0px 0px 10px 0px rgb(165, 165, 165);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0px rgb(165, 165, 165);
 
     width: 240px;
     height: 360px;
@@ -363,4 +372,9 @@ index-news {
 
 .perks {
     list-style-type: circle;
+    padding: 0px 30px 0px 45px;
+}
+
+.perks li {
+    margin: 10px 0;
 }

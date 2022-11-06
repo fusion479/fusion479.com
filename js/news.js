@@ -7,13 +7,13 @@ var fullCard = ``;
 newsCards.forEach (news => {
     var data = Object.values(news);
     //console.log(data);
-    fullCard += `
+    fullCard = `
     <a href="pages/${data[3]}.html" class="news-box">
         <div class="news-title">${data[0]}</div>
         <div class="news-creation">Created on ${data[1]}</div>
         <div class="news-caption">${data[2]}</div>
     </a>
-    `
+    ` + fullCard;
 })
 
 //console.log(fullCard);

@@ -37,13 +37,19 @@ export const memberList = [
         blurb: "Robotics and technology have fascinated me ever since I was a child. Joining 479 as a sophmore, I was a little late to the party, but I felt like I was still welcomed and encouraged to learn just like everyone else. The adrenaline you get watching the team succeed is unlike any other, and you feel kind of proud in a way. FTC has allowed me to develop my skills as an amateur engineer, machinist, software devloper, and team leader, and has made me into a more well-rounded individual. I am sure this is true for everyone else on the team and anyone else who decides to join in the future.",
     },
     {
-        photo: "shrek.jpg",
+        photo: "kellen.jpg",
         name: "Kellen Yu",
         title: "Head of Engineering",
         blurb: "I have been passionate about engineering for as long as I can remember. I joined 479 as a freshman, and I can proudly say that I have no regrets in joining! I love how the general attitude of this team is to first try an idea out before judging it as there is not necessarily such a thing as a 'bad idea'. The open attitude of the team makes you feel that you are not only working together to build a robot and compete, but to also learn with one another and have fun. Apart from robotics, I like to make music, and mess around with electronics.",
     },
     {
-        photo: "shrek.jpg",
+        photo: "eduardo.jpg",
+        name: "Eduardo Lozano",
+        title: "Head of Marketing",
+        blurb: "I've always been interested in building things. I've always had a fascination for building things and understanding the true nature of how something works. Robotics allows this ambition to foster and allows me to build my understanding of designing and software. I really love this team because everyone is willing to learn and teach. There isn't a single day where I don't have some form of self-realization of something new. Our FTC team isn't just a team for a bot, we're more like a family that looks after each other whenever we need it so the combination makes it best. Besides robotics, I also enjoy playing guitar and coding with friends."
+    },
+    {
+        photo: "victoria.jpg",
         name: "Victoria Reguyal",
         title: "",
         blurb: "I’m a sophomore and I joined Team 479 last school year to learn about engineering and electronics while having fun with robots. Though I’ve been interested in STEM since elementary school, I started out with hardly any relevant experience. But in FTC, I have been a part of a warm community with people who push each other to learn and achieve more. Outside of school, I like to spend my time reading, playing games, and skateboarding.",

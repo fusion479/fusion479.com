@@ -38,11 +38,9 @@ class HeaderTemplate extends HTMLElement {
                 </a>
                 <ul>
                     <li><a href="${linkdir}team-news.html">Team News</a></li>
-                    <li><a href="${linkdir}link-two.html">link two</a></li>
+                    <li><a href="${linkdir}our-robot.html">Our Robot</a></li>
                     <li><a href="${linkdir}members.html">Meet the Team</a></li>
-                    <li><a href="${linkdir}link-four.html">link four</a></li>
-                    <li><a href="${linkdir}sponsors.html">Sponsors</a></li>
-                    <li><a href="${linkdir}donate.html" class="donation">Donate</a></li>
+                    <li><a href="${linkdir}donate.html" class="donation">Sponsor</a></li>
                 </ul>
             </header>
         `
@@ -79,6 +77,7 @@ const navLinks = document.querySelectorAll(".nav ul a").
 forEach(link => {
     //checks each navbar link's location and if they point to activePage make them active
     if(link.href.includes(`${activePage}`)){
+        print(activePage)
         link.classList.add("active");
     }
 })
