@@ -122,8 +122,8 @@ body {
 
 .swiper {
     display: flex;
-    height: 450px;
-    width: 900px;
+    height: 350px;
+    width: 730px;
     justify-content: center;
     align-items: center;
 }
@@ -157,19 +157,17 @@ body {
 }
 
 .section {
-    padding: 15px 13%;
+    padding: 15px 13vw;
     display: flex;
     align-items: center;
 }
 
 .section img {
-    max-height: 400px;
-    flex: 1;
+    height: 60vh;
 }
 
 .section .title {
     font-size: 48px;
-    flex: 2;
 }
 
 .section .description {
@@ -179,7 +177,7 @@ body {
 }
 
 .game {
-    padding: 50px 250px;
+    padding: 50px 17vw;
     color: white;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/powerplay.jpg");
     background-size: cover;
@@ -227,7 +225,7 @@ index-news {
 }
 
 .news-box {
-    width: 900px;
+    width: 65vw;
     padding: 20px 40px;
     border-radius: 25px;
     box-shadow: 3px 3px 25px -15px black;
@@ -284,6 +282,7 @@ index-news {
     justify-content: center;
     background-color: rgb(209, 242, 255);
     height: 120px;
+    width: 100%;
 }
 
 .footer .social-icons {
@@ -405,6 +404,7 @@ index-news {
     padding: 10px;
     border-radius: 15px;
     background-color: rgb(239, 239, 239);
+    box-shadow: 2px 2px 25px -10px rgb(44, 44, 44);
 }
 
 .image-container img {
@@ -421,4 +421,115 @@ index-news {
     padding: 7px 0px;
     border-radius: 0px 0px 15px 15px;
     text-align: center;
+}
+
+.menu-button {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .swiper {
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .swiper-pagination {
+        margin-top: -50px;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .nav {
+        width: 100vw;
+    }
+
+    .nav .logo {
+        margin-left: -1vw;
+    }
+
+    .menu-button {
+        display: flex;
+        margin-right: 5vw;
+        color: gray;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        margin-top: -100%;
+        margin-bottom: -50px;
+        transition: 0.5s;
+        transition-timing-function: cubic-bezier(.34,.07,.45,.97);
+        z-index: 1000;
+    }
+
+    .mobile-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-menu li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        width: 100vw;
+        border-bottom: 2px solid rgb(233, 141, 237);
+        background-color: white;
+    }
+
+    .donation {
+        background-color: white;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .mobile-menu a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .mobile-menu a.active {
+        color: rgb(66, 213, 236);
+    }
+
+    .nav .icon {
+        margin-top: 0;
+        margin-right: -5vw;
+        transform: scale(0.5);
+    }
+
+    .nav .logo {
+        height: 60px;
+    }
+
+    .mobile-menu.active {
+        margin-top: 60px;
+    }
+
+    .donation-tiers {
+        flex-direction: column;
+    }
+
+    .image-container img,
+    .image-container .caption {
+        width: 80vw;
+    }
+    
 }

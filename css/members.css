@@ -1,7 +1,7 @@
 .member {
     display: flex;
     gap: 40px;
-    width: 850px;
+    width: 65vw;
     padding: 40px 90px;
     border-bottom: 1px solid rgb(83, 83, 83);
 }
@@ -34,4 +34,11 @@
 .member-title {
     font-size: 18px;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 400px) {
+    .member {
+        flex-direction: column;
+        padding: 10vh 5vw;
+    }
 }
