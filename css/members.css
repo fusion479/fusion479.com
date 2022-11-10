@@ -36,9 +36,10 @@
     font-weight: 600;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     .member {
         flex-direction: column;
+        align-items: center;
         padding: 10vh 5vw;
     }
 }
