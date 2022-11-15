@@ -464,6 +464,7 @@ index-news {
         color: gray;
         font-weight: 500;
         transition: 0.3s;
+        cursor: pointer;
     }
 
     .mobile-menu {

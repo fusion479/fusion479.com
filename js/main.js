@@ -97,6 +97,7 @@ const navLinksMobile = document.querySelectorAll(".mobile-menu a").
 forEach(link => {
     //checks each navbar link's location and if they point to activePage make them active
     if(link.href.includes(`${activePage}`) && activePage.length > 1){
+        console.log(activePage)
         link.classList.add("active");
     }
 })
