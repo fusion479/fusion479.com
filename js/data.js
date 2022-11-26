@@ -60,4 +60,10 @@ export const memberList = [
         title: "",
         blurb: "From learning about CAD in afterschool programs to messing around with the lego robotics,  I've always enjoyed technology and robots since middle school. I decided to join the robotic team my freshman year to push my knowledge even further. Being surrounded by such supportive peers really helped me build the support for my foundation while also pushing me to strive for greater heights. Outside of school, I like playing fps games, racket sports, basketball and sleeping.",
     },
+    {
+        photo: "shrek.jpg",
+        name: "Donald Bi",
+        title: "",
+        blurb: "Making things have always been really fun for me, whether through using legos or coding fun little programs. Joining 479 has been a fantastic ride in developing this passion, helping me learn more about different fields such as engineering and software, and also finding people who love doing the same things. Some of my hobbies outside of school include reading, playing videogames, and working out."
+    }
 ]
