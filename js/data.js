@@ -25,7 +25,7 @@ export const memberList = [
         blurb: "I've always been a sort of a computer fanatic growing up, hardware and software are just things I find really cool. After joining 479 as a sophomore, I realized this was just the place to foster the skills I would need going forward while also doing something enjoyable with like-minded people. It's worth the time to spend the time working and learning with my teammates through thick and thin. I'm still learning the ropes and getting adjusted to being on the team now that school is in person, but with everyone else's support, I think I'll do just fine. Outside of robotics, my hobbies include playing video games, keeping up with tech, and music.",
     },
     {
-        photo: "shrek.jpg",
+        photo: "daniel.jpg",
         name: "Daniel (Haokun) Xu",
         title: "Vice President",
         blurb: "Robotics and technology have fascinated me ever since I was a child. Joining 479 as a sophmore, I was a little late to the party, but I felt like I was still welcomed and encouraged to learn just like everyone else. The adrenaline you get watching the team succeed is unlike any other, and you feel kind of proud in a way. FTC has allowed me to develop my skills as an amateur engineer, machinist, software devloper, and team leader, and has made me into a more well-rounded individual. I am sure this is true for everyone else on the team and anyone else who decides to join in the future.",
