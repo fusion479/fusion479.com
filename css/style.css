@@ -1,5 +1,5 @@
-* {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -11,10 +11,10 @@ a {
 }
 
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
 }
 
 /*navbar css*/
@@ -39,19 +39,28 @@ body {
     gap: 6px;
     color: gray;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 28px;
     margin-left: 15vw;
+    font-family:  Teko, Geneva, Tahoma, sans-serif;
 }
 
-.nav .logo .one{
+.black{
     color: black;
 }
 
-.nav .logo .two{
+.black.shadow {
+    text-shadow: 0px 0px 5px black;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
     color:rgb(66, 213, 236);
 }
 
-.nav .logo .three{
+.pink{
     color: rgb(233, 141, 237);
 }
 
@@ -113,6 +122,11 @@ body {
     padding-bottom: 50px;
 }
 
+#index.middle {
+    margin: 0;
+    padding: 0;
+}
+
 #pages.middle {
     align-items: flex-start;
     padding: 0px 20vw 60px;
@@ -120,16 +134,24 @@ body {
 
 /* img slider for index page */
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .swiper {
     display: flex;
-    height: 350px;
-    width: 730px;
+    height: 100vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
 }
 
 .swiper-slide img {
     width: 100%;
+    filter: brightness(70%);
 }
 
 .swiper .swiper-button-prev,
@@ -147,9 +169,42 @@ body {
     background-color: #fff;
 }
 
+.arrow {
+    margin-top: calc(-300px + 10vw );
+    z-index: 999;
+    width: 10vw;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(111%) contrast(102%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    filter: invert(79%) sepia(11%) saturate(2476%) hue-rotate(145deg) brightness(94%) contrast(98%);
+}
+
+.big-center {
+    font-family: Teko, Geneva, Tahoma, sans-serif;
+    font-size: 130px;
+    margin-top: -500px;
+    z-index: 999;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    width: 700px;
+}
+
+#scroll-anchor {
+    margin-top: 165px;
+    margin-bottom: 35px;
+}
+
 /* text for index page */
 
-.index-main {
+.index#main {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -438,12 +493,24 @@ index-news {
     }
 
     .swiper {
+        margin-top: 100px;
         height: 40vw;
         width: 90vw;
     }
 
     .swiper-pagination {
         margin-top: -50px;
+    }
+
+    .arrow {
+        margin-top: -10vh;
+    }
+
+    .big-center {
+        gap: 10px;
+        font-size: 30px;
+        margin-top: -30vw;
+        width: 250px;
     }
 
     .nav ul {

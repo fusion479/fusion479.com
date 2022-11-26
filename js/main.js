@@ -31,9 +31,9 @@ class HeaderTemplate extends HTMLElement {
                 <a href="${linkdir}index.html">
                     <div class="logo">
                         <img class="icon" src=${linkdir}images/logo-icon.png>
-                        <div class="one">479</div>
-                        <div class="two">STUY</div>
-                        <div class="three">FUSION</div>
+                        <div class="black">479</div>
+                        <div class="blue">STUY</div>
+                        <div class="pink">FUSION</div>
                     </div>
                 </a>
                 <ul>
@@ -124,3 +124,6 @@ menuButton.addEventListener("click",function(){
         menuButton.style.color = "rgb(66, 213, 236)";
     }
 })
+
+const arrowSVG = document.querySelector("path.ionicon-fill-none")
+console.log(arrowSVG)
