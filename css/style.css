@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Teko");
+
 html {
     scroll-behavior: smooth;
 }
@@ -143,7 +145,7 @@ body {
 .swiper {
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 98.9vw;
     justify-content: center;
     align-items: center;
     object-fit: cover;
@@ -170,7 +172,7 @@ body {
 }
 
 .arrow {
-    margin-top: calc(-300px + 10vw );
+    margin-top: calc(-13vw);
     z-index: 999;
     width: 10vw;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(111%) contrast(102%);
@@ -198,7 +200,7 @@ body {
 }
 
 #scroll-anchor {
-    margin-top: 165px;
+    margin-top: 300px;
     margin-bottom: 35px;
 }
 
@@ -523,6 +525,7 @@ index-news {
 
     .nav .logo {
         margin-left: -1vw;
+        height: 60px;
     }
 
     .menu-button {
@@ -583,10 +586,6 @@ index-news {
         margin-top: 0;
         margin-right: -25px;
         transform: scale(0.5);
-    }
-
-    .nav .logo {
-        height: 60px;
     }
 
     .mobile-menu.active {
