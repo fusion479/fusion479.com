@@ -64,6 +64,6 @@ export const memberList = [
         photo: "shrek.jpg",
         name: "Donald Bi",
         title: "",
-        blurb: "Making things have always been really fun for me, whether through using legos or coding fun little programs. Joining 479 has been a fantastic ride in developing this passion, helping me learn more about different fields such as engineering and software, and also finding people who love doing the same things. Some of my hobbies outside of school include reading, playing videogames, and working out.
+        blurb: "Making things have always been really fun for me, whether through using legos or coding fun little programs. Joining 479 has been a fantastic ride in developing this passion, helping me learn more about different fields such as engineering and software, and also finding people who love doing the same things. Some of my hobbies outside of school include reading, playing videogames, and working out."
     }
 ]
