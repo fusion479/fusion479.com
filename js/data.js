@@ -65,5 +65,11 @@ export const memberList = [
         name: "Donald Bi",
         title: "",
         blurb: "Making things have always been really fun for me, whether through using legos or coding fun little programs. Joining 479 has been a fantastic ride in developing this passion, helping me learn more about different fields such as engineering and software, and also finding people who love doing the same things. Some of my hobbies outside of school include reading, playing videogames, and working out."
+    },
+    {
+        photo: "shrek.jpg",
+        name: "Jeffrey Zou",
+        title: "",
+        blurb: "Technology has been an integral part of my life. From learning about PC parts to learning about python, I've always enjoyed the process of learning about technology. To further push myself, I joined the team in my freshman year in hopes of a further horizon. This has been an experience I don't regret. From an amazing community of people to the database of knowledge I have gained from my peers, I have found a place I truly belong. My interests outside of school include eating food, playing video games and playing basketball."
     }
 ]
