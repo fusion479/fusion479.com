@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Teko");
+@import url("https://fonts.googleapis.com/css?family=Sora");
 
 html {
     scroll-behavior: smooth;
@@ -13,7 +14,7 @@ a {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Sora', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -43,7 +44,7 @@ body {
     font-weight: 600;
     font-size: 28px;
     margin-left: 15vw;
-    font-family:  Teko, Geneva, Tahoma, sans-serif;
+    font-family:  Sora, Geneva, Tahoma, sans-serif;
 }
 
 .black{
@@ -60,9 +61,12 @@ body {
 
 .blue {
     color:rgb(66, 213, 236);
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.2s;
 }
 
-.pink{
+.blue:hover {
     color: rgb(233, 141, 237);
 }
 
@@ -185,8 +189,9 @@ body {
 }
 
 .big-center {
-    font-family: Teko, Geneva, Tahoma, sans-serif;
-    font-size: 130px;
+    font-family: Sora, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 120px;
     margin-top: -500px;
     z-index: 999;
 
@@ -196,7 +201,23 @@ body {
     justify-content: center;
     align-items: center;
 
-    width: 700px;
+    width: 800px;
+}
+
+.big-center-stuyfusion {
+    font-family: Sora, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    margin-top: -20px;
+    z-index: 999;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    width: 1300px;
 }
 
 #scroll-anchor {

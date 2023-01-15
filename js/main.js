@@ -31,9 +31,7 @@ class HeaderTemplate extends HTMLElement {
                 <a href="${linkdir}index.html">
                     <div class="logo">
                         <img class="icon" src=${linkdir}images/logo-icon.png>
-                        <div class="black">479</div>
-                        <div class="blue">STUY</div>
-                        <div class="pink">FUSION</div>
+                        <div class="blue">Stuy Fusion</div>
                     </div>
                 </a>
                 <ul>
