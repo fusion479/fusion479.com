@@ -265,12 +265,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 120px;
     margin-top: 40px;
     font-size: 18px;
     font-weight: 500;
     border-radius: 9px;
-    padding: 7px 35px;
+    padding: 7px 15px;
     color: white;
     border: 3px solid white;
     background-color: rgba(0,0,0,0);

@@ -69,8 +69,11 @@ class FooterTemplate extends HTMLElement {
                 <a class="icon" href="https://www.instagram.com/StuyFusion" target="_blank">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
+                <a class="icon" href="https://ftcscout.org/teams/479" target="_blank">
+                    <i class="fa-solid fa-binoculars fa-xl"></i>
+                </a>
             </div>
-            <div class="copyright">© StuyFusion</div>
+            <div class="copyright">© Stuy Fusion 2023</div>
         </div>
         `
     }
