@@ -447,7 +447,7 @@ index-news {
 
     border-bottom: 1px solid rgb(213, 213, 213);
     padding: 13px;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .pricing span {
@@ -508,6 +508,121 @@ index-news {
 
 .mobile-menu {
     display: none;
+}
+
+
+form {
+    padding: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.merch-input {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.selection { 
+    margin-top: 25px;
+}
+
+.tshirt-size,
+.hoodie-size,
+.windbreaker-size,
+.tshirt-input,
+.hoodie-input {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: 0.2s;
+}
+
+.tshirt-size,
+.hoodie-size,
+.windbreaker-size {
+    display: flex;
+}
+
+.row label.category{
+    display: flex;
+    width: 150px;
+}
+
+.row {
+    display: flex;
+}
+
+.row label,
+.row input {
+    margin: 10px 0;
+    text-align: center;
+    width: 50px;
+}
+
+form .active {
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+    transition: 0.2s;
+}
+
+.tshirt-input,
+.hoodie-input {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 10px;
+}
+
+button[type="submit"] {
+    color: gray;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px -1px black;
+    transition: 0.2s;
+    background-color: rgb(246, 246, 246);
+}
+
+button[type="submit"]:disabled {
+    color: rgb(187, 187, 187);
+    background-color: rgb(246, 246, 246);
+}
+
+button[type="submit"]:disabled:hover {
+    color: rgb(187, 187, 187);
+    background-color: rgb(246, 246, 246);
+    cursor: default;
+}
+
+button[type="submit"]:hover {
+    color: rgb(233, 141, 237);
+    background-color: rgb(209, 242, 255);
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
