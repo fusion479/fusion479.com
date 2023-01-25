@@ -600,6 +600,7 @@ form .active {
 
 button[type="submit"] {
     color: gray;
+    font-weight: 600;
     border: none;
     padding: 10px 20px;
     border-radius: 15px;
@@ -620,7 +621,7 @@ button[type="submit"]:disabled:hover {
 }
 
 button[type="submit"]:hover {
-    color: rgb(233, 141, 237);
+    color: rgb(82, 82, 82);
     background-color: rgb(209, 242, 255);
     cursor: pointer;
 }
