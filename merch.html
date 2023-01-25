@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion 479 | Sponsor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/50596a3a4b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header-template></header-template>
+
+    <div class="middle merch">
+        <div class="merch-pics-section">
+            <div class="merch-pic"></div>
+            <div class="merch-pic"></div>
+            <div class="merch-pic"></div>
+        </div>
+        <div class="news-title selection">Order Merch</div>
+        <p><b>no repeat submissions</b>, if you wish to edit your response, contact <b>hxu40@stuy.edu</b></p>
+        <p>fields marked with * are required</p>
+        <form>
+            <div class="merch-input">
+                <label>Full Name*</label>
+                <input type="text" class="form-control" name="Name" required>
+            </div>
+            <div class="merch-input">
+                <label>Email*</label>
+                <input type="email" class="form-control" name="Email" required>
+            </div>
+            <div class="merch-input">
+                <label>Phone Number*</label>
+                <input type="tel" class="form-control" name="Phone" required>
+            </div>
+            <div class="merch-input">
+                <label>Team Number</label>
+                <input type="text" class="form-control" name="Team-Number">
+            </div>
+            <div class="selection">
+                <input type="checkbox" id="T-shirt" name="T-shirt">
+                <label>T-shirt</label>
+                <input type="checkbox" id="Hoodie" name="Hoodie">
+                <label>Hoodie</label>
+                <input type="checkbox" id="Windbreaker" name="Windbreaker">
+                <label>Windbreaker</label>
+            </div>
+            <div class="tshirt-input">
+                <label>What do you want to put on the back of your t-shirt?</label>
+                <input type="text" class="form-control" name="Tshirt-Text">
+            </div>
+            <div class="hoodie-input">
+                <label>What do you want to put on the back of your hoodie?</label>
+                <input type="text" class="form-control" name="Hoodie-Text">
+            </div>
+            <div class="size-input">
+                <div class="size-labels row">
+                    <label class="category">Sizes</label>
+                    <label>S</label>
+                    <label>M</label>
+                    <label>L</label>
+                    <label>XL</label>
+                </div>
+                <div class="tshirt-size row">
+                    <label class="category">T-Shirt Size</label>
+                    <input type="radio" name="Tshirt-Size" value="S">
+                    <input type="radio" name="Tshirt-Size" value="M">
+                    <input type="radio" name="Tshirt-Size" value="L">
+                    <input type="radio" name="Tshirt-Size" value="XL">
+                </div>
+                <div class="hoodie-size row">
+                    <label class="category">Hoodie Size</label>
+                    <input type="radio" name="Hoodie-Size" value="S">
+                    <input type="radio" name="Hoodie-Size" value="M">
+                    <input type="radio" name="Hoodie-Size" value="L">
+                    <input type="radio" name="Hoodie-Size" value="XL">
+                </div>
+                <div class="windbreaker-size row">
+                    <label class="category">Windbreaker Size</label>
+                    <input type="radio" name="Windbreaker-Size" value="S">
+                    <input type="radio" name="Windbreaker-Size" value="M">
+                    <input type="radio" name="Windbreaker-Size" value="L">
+                    <input type="radio" name="Windbreaker-Size" value="XL">
+                </div>
+            </div>
+            <button type="submit" disabled>Submit Form</button>
+        </form>
+    </div>
+
+
+    <footer-template></footer-template>
+    <script src="js/main.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+        const form = document.querySelector('form');
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+            const data = new FormData(form);
+            const action = "https://script.google.com/macros/s/AKfycbxx1qCpL3XD5ZZ6MjbQyDnKB0-xc46B8dp3pI3INFPQ7EL8YUl4Yl06PKxyM82vMbMz_A/exec";
+            fetch(action, {
+            method: 'POST',
+            body: data,
+            })
+            .then(() => {
+            alert("Success!");
+            })
+        });
+        });
+
+        function toggleSubmitBtn(){
+            const btn = document.querySelector('button[type="submit"]');
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            if (!checkboxes[0].checked && !checkboxes[1].checked && !checkboxes[2].checked) {
+                btn.disabled = true;
+            } else {
+                btn.disabled = false;
+            }
+        }
+
+        const tShirtCheck = document.querySelector('#T-shirt');
+        console.log(tShirtCheck);
+        tShirtCheck.addEventListener("change", function() {
+            const tShirtInput = document.querySelector('.tshirt-input');
+            tShirtInput.classList.toggle('active');
+
+            const tShirtSize = document.querySelector('.tshirt-size');
+            tShirtSize.classList.toggle('active');
+
+            const tShirtRadio = document.querySelector('input[name="Tshirt-Size"]');
+            tShirtRadio.required = !tShirtRadio.required;
+
+            toggleSubmitBtn();
+        });
+        const hoodieCheck = document.querySelector('#Hoodie');
+        hoodieCheck.addEventListener("change", function() {
+            const hoodieInput = document.querySelector('.hoodie-input');
+            hoodieInput.classList.toggle('active');
+            
+            const hoodieSize = document.querySelector('.hoodie-size');
+            hoodieSize.classList.toggle('active');
+
+            const hoodieRadio = document.querySelector('input[name="Hoodie-Size"]');
+            hoodieRadio.required = !hoodieRadio.required;
+
+            toggleSubmitBtn();
+        });
+        const windbreakerCheck = document.querySelector('#Windbreaker');
+        windbreakerCheck.addEventListener("change", function() {
+            const windbreakerSize = document.querySelector('.windbreaker-size');
+            windbreakerSize.classList.toggle('active');
+
+            const windbreakerRadio = document.querySelector('input[name="Windbreaker-Size"]');
+            windbreakerRadio.required = !windbreakerRadio.required;
+
+            toggleSubmitBtn();
+        });
+
+
+    </script>
+</body>
+
+</html>
