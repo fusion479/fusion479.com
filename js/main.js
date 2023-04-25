@@ -39,7 +39,6 @@ class HeaderTemplate extends HTMLElement {
                     <li><a href="${linkdir}our-robot.html">Our Robot</a></li>
                     <li><a href="${linkdir}members.html">Meet the Team</a></li>
                     <li><a href="${linkdir}donate.html" class="donation">Sponsor</a></li>
-                    <li><a href="${linkdir}merch.html" class="donation">Buy Merch</a></li>
                 </ul>
                 <div class="menu-button">
                     MENU
@@ -52,7 +51,6 @@ class HeaderTemplate extends HTMLElement {
                     <a href="${linkdir}our-robot.html"><li>Our Robot</li></a>
                     <a href="${linkdir}members.html"><li>Meet the Team</li></a>
                     <a href="${linkdir}donate.html" class="donation"><li>Sponsor</li></a>
-                    <li><a href="${linkdir}merch.html" class="donation">Buy Merch</a></li>
                 </ul>
             </div>
         `
