@@ -2,10 +2,10 @@ console.log(10)
 
 var fileLoc = window.location.pathname;
 var currentDir = fileLoc.substring(0, fileLoc.lastIndexOf("/"));
-currentDir = currentDir.substring(currentDir.lastIndexOf("/")+1);
+currentDir = currentDir.substring(currentDir.lastIndexOf("/") + 1);
 
 //checks if the html file is in pages folder, if it is, adds ../ to the header links
-if (currentDir === "pages"){
+if (currentDir === "pages") {
     var linkdir = "../";
 } else {
     var linkdir = "";
@@ -35,10 +35,9 @@ class HeaderTemplate extends HTMLElement {
                     </div>
                 </a>
                 <ul>
-                    <li><a href="${linkdir}team-news.html">Team News</a></li>
-                    <li><a href="${linkdir}our-robot.html">Our Robot</a></li>
+                    <li><a href="${linkdir}past-seasons.html">Past Seasons</a></li>
                     <li><a href="${linkdir}members.html">Meet the Team</a></li>
-                    <li><a href="${linkdir}donate.html" class="donation">Sponsor</a></li>
+                    <li><a href="${linkdir}outreach.html">Community Impact</a></li>
                 </ul>
                 <div class="menu-button">
                     MENU
@@ -47,10 +46,9 @@ class HeaderTemplate extends HTMLElement {
 
             <div class="mobile-menu">
                 <ul>
-                    <a href="${linkdir}team-news.html"><li>Team News</li></a>
-                    <a href="${linkdir}our-robot.html"><li>Our Robot</li></a>
+                    <a href="${linkdir}past-seasons.html"><li>Past Seasons</li></a>
                     <a href="${linkdir}members.html"><li>Meet the Team</li></a>
-                    <a href="${linkdir}donate.html" class="donation"><li>Sponsor</li></a>
+                    <a href="${linkdir}outreach.html">Community Impact</a>
                 </ul>
             </div>
         `
@@ -82,40 +80,40 @@ class FooterTemplate extends HTMLElement {
 customElements.define("header-boilerplate", HeadBoilerplate);
 customElements.define("header-template", HeaderTemplate);
 customElements.define("footer-template", FooterTemplate);
-    
+
 //current page's name
 const activePage = window.location.pathname;
 
 const navLinks = document.querySelectorAll(".nav ul a").
-forEach(link => {
-    //checks each navbar link's location and if they point to activePage make them active
-    if(link.href.includes(`${activePage}`) && activePage.length > 1){
-        link.classList.add("active");
-    }
-})
+    forEach(link => {
+        //checks each navbar link's location and if they point to activePage make them active
+        if (link.href.includes(`${activePage}`) && activePage.length > 1) {
+            link.classList.add("active");
+        }
+    })
 
 const navLinksMobile = document.querySelectorAll(".mobile-menu a").
-forEach(link => {
-    //checks each navbar link's location and if they point to activePage make them active
-    if(link.href.includes(`${activePage}`) && activePage.length > 1){
-        console.log(activePage)
-        link.classList.add("active");
-    }
-})
+    forEach(link => {
+        //checks each navbar link's location and if they point to activePage make them active
+        if (link.href.includes(`${activePage}`) && activePage.length > 1) {
+            console.log(activePage)
+            link.classList.add("active");
+        }
+    })
 
 const logo = document.querySelector(".logo");
 const icon = document.querySelector(".icon");
-logo.addEventListener("mouseover",function(){
+logo.addEventListener("mouseover", function () {
     icon.classList.add("big");
 })
 
-logo.addEventListener("mouseout",function(){
+logo.addEventListener("mouseout", function () {
     icon.classList.remove("big");
 })
 
 //opens menu if closed and closes if opened, changes color of menu button too
 const menuButton = document.querySelector(".menu-button")
-menuButton.addEventListener("click",function(){
+menuButton.addEventListener("click", function () {
     const mobileMenu = document.querySelector(".mobile-menu");
     if (mobileMenu.classList.contains("active")) {
         mobileMenu.classList.remove("active");
