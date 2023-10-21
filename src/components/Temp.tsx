@@ -1,5 +1,5 @@
 import Image from "next/image";
-import backgroundImage from "../../public/background.jpg";
+import backgroundImage from "../../public/backgrounds/spray_bg.jpg";
 import Container from "./Container";
 
 export default function Hero() {
