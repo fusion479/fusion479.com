@@ -13,7 +13,7 @@ function Navlink({
   return (
     <Link
       href={href}
-      className={`inline-block duration-150 font-light rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900 ${
+      className={`inline-block duration-150 font-light rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-blue-600 ${
         margin && "mr-6"
       }`}
     >
@@ -33,7 +33,7 @@ export default function Navbar() {
               alt="Stuy Fusion Logo"
               className="h-12 w-12 mr-2"
             />
-            <span className="font-logo text-xl">Stuy Fusion</span>
+            <span className="font-logo text-xl text-blue-700">Stuy Fusion</span>
           </div>
           <div>
             <Navlink margin href="/">
