@@ -17,7 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <div className="border-t-[1px] w-1/2 ml-auto mr-auto" />
+        <div className="text-center text-sm text-gray-500 sm:text-center dark:text-gray-400 py-6">
+          Copyright © StuyFusion 2023
+        </div>
+      </body>
     </html>
   );
 }
