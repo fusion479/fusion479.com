@@ -7,8 +7,18 @@ import backgroundImage from "../../public/backgrounds/curve_bg.svg";
 import Copyright from "@/components/Copyright";
 import Sponsors from "./components/Sponsors";
 import Container from "@/components/Container";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.scrollY);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <motion.section
       initial={{ opacity: 0.3 }}
@@ -22,6 +32,7 @@ export default function Home() {
         alt="background image"
         width={1558}
         height={946}
+        style={{ transform: `translateY(${offsetY * 0.5}px)` }}
         priority
       />
       <Container className="relative">
