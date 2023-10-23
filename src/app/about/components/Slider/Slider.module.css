@@ -1,0 +1,20 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.images {
+  display: inline-block;
+  white-space: nowrap;
+  animation: 10s slide infinite linear;
+}
+
+.images img {
+  height: 150px;
+  display: inline-block;
+  margin: 0 40px;
+}

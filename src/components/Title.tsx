@@ -8,7 +8,7 @@ export default function Title({
   description: string;
 }) {
   return (
-    <div>
+    <div className="text-center">
       <motion.h1
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
