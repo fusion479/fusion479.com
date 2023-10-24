@@ -19,7 +19,8 @@ const config: Config = {
       },
     },
     fontFamily: {
-      logo: ["cursive"],
+      cursive: ["cursive"],
+      merinda: ["georgia"],
     },
   },
   plugins: [],

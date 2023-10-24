@@ -33,7 +33,9 @@ export default function Navbar() {
               alt="Stuy Fusion Logo"
               className="h-12 w-12 mr-2"
             />
-            <span className="font-logo text-xl text-blue-700">Stuy Fusion</span>
+            <span className="font-cursive text-xl text-blue-700">
+              Stuy Fusion
+            </span>
           </Link>
           <div>
             <Navlink margin href="/">

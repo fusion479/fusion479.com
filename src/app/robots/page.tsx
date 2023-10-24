@@ -5,6 +5,9 @@ import Container from "@/components/Container";
 import Image from "next/image";
 import backgroundImage from "../../../public/backgrounds/spray.jpg";
 import { useEffect, useState } from "react";
+import Hero from "./components/Hero";
+import Timeline from "./components/Timeline";
+import Copyright from "@/components/Copyright";
 
 export default function About() {
   const [offsetY, setOffsetY] = useState(0);
@@ -32,10 +35,10 @@ export default function About() {
         style={{ transform: `translateY(${offsetY * 0.8}px)` }}
         priority
       />
-      <Container className="relative pb-24">
-        <div className="h-96" />
-        <div className="h-96" />
-        <div className="h-96" />
+      <Container className="relative">
+        <Hero />
+        <Timeline />
+        <Copyright theme="dark" />
       </Container>
     </motion.section>
   );

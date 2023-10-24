@@ -15,7 +15,7 @@ export default function Hero() {
       />
       <Container className="relative">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="font-logo text-4xl sm:text-5xl text-center text-slate-900">
+          <h1 className="font-cursive text-4xl sm:text-5xl text-center text-slate-900">
             Stuy Fusion
           </h1>
           <p className="text-center text-slate-700 mt-2 sm:mt-4">
