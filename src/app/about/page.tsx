@@ -8,6 +8,7 @@ import backgroundImage from "../../../public/backgrounds/spray_bg.jpg";
 import { useEffect, useState } from "react";
 import Slider from "./components/Slider";
 import Team from "./components/Team";
+import Copyright from "@/components/Copyright";
 
 export default function About() {
   const [offsetY, setOffsetY] = useState(0);
@@ -41,6 +42,7 @@ export default function About() {
       <Slider />
       <Container className="relative mt-32">
         <Team />
+        <Copyright theme="dark" />
       </Container>
     </motion.section>
   );

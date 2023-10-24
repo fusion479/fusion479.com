@@ -18,13 +18,10 @@ export default function Team() {
           <span className="text-base font-semibold md:text-2xl text-gray-950">
             John Doe
           </span>
-          <span className="px-2 text-sm font-semibold md:text-base text-blue-500">
+          <p className="text-sm font-semibold text-blue-500">
             Programming Head
-          </span>
-          <p className="py-1 text-xs font-medium text-gray-600 md:text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <p className="pt-4 text-xs font-normal text-gray-600 md:text-sm">
+          <p className="pt-2 text-xs font-normal text-gray-600 md:text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
             dolor officia iste, earum nesciunt, suscipit eius non beatae iusto
             ea, consequatur reprehenderit perspiciatis! Sequi, fugit. Ipsum

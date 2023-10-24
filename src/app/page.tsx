@@ -38,7 +38,7 @@ export default function Home() {
       <Container className="relative">
         <Hero />
         <Sponsors />
-        <Copyright />
+        <Copyright theme="light" />
       </Container>
     </motion.section>
   );
