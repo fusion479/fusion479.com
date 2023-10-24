@@ -3,7 +3,7 @@
 import Hero from "@/app/components/Hero";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import backgroundImage from "../../public/backgrounds/curve_bg.svg";
+import backgroundImage from "../../public/backgrounds/curve.svg";
 import Copyright from "@/components/Copyright";
 import Sponsors from "./components/Sponsors";
 import Container from "@/components/Container";

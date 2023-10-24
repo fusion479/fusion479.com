@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Hero from "./components/Hero";
 import Container from "@/components/Container";
 import Image from "next/image";
-import backgroundImage from "../../../public/backgrounds/spray_bg.jpg";
+import backgroundImage from "../../../public/backgrounds/spray.jpg";
 import { useEffect, useState } from "react";
 import Slider from "./components/Slider";
 import Team from "./components/Team";

@@ -42,7 +42,7 @@ export default function Navbar() {
             <Navlink margin href="/about">
               About
             </Navlink>
-            <Navlink href="/team">Team</Navlink>
+            <Navlink href="/robots">Robots</Navlink>
           </div>
         </nav>
       </Container>
