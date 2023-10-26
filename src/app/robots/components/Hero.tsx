@@ -5,15 +5,13 @@ export default function Hero() {
     <div className="flex">
       <img
         src="/placeholder_image.jpg"
-        alt="3D model of robot"
+        alt="Current robot"
         className="w-5/12"
       />
       <div className="w-7/12">
         <Title
           bold="engineers,"
-          description={
-            "Stuyvesant FTC Team 479 is a robotics team based in New York City that competes in the FIRST Tech Challenge."
-          }
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
       </div>
     </div>
