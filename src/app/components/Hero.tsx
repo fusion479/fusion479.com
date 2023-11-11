@@ -3,8 +3,8 @@ import Title from "@/components/Title";
 
 export default function Hero() {
   return (
-    <div className="xs:flex-col lg:flex">
-      <div className="lg:w-7/12 lg:mb-0 mb-6">
+    <div className="flex flex-col xl:flex-row">
+      <div className="xl:w-7/12 xl:mb-0 mb-6">
         <Title
           bold={["Stuy Fusion,", "a community,", "engineers,"]}
           loop
@@ -20,7 +20,7 @@ export default function Hero() {
       <img
         src="/placeholder_image.jpg"
         alt="3D model of robot"
-        className="lg:w-5/12 mx-auto"
+        className="xl:w-5/12 mx-auto"
       />
     </div>
   );

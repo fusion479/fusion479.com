@@ -24,15 +24,12 @@ export default function Home() {
       initial={{ opacity: 0.3 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="relative overflow-hidden pb-16 pt-20 text-center lg:pt-32"
+      className="relative pb-16 pt-20 text-center xl:pt-32 overflow-hidden 2xl:min-h-[87.1vh]"
     >
       <Image
-        // TODO: Redo this
-        className="absolute max-w-none top-0 lg:h-auto h-full lg:w-full translate-y-1/4"
+        className="absolute max-w-none -right-full lg:-right-1/2 xl:right-auto xl:h-auto h-full xl:w-full top-0"
         src={backgroundImage}
         alt="background image"
-        width={1558}
-        height={946}
         style={{ transform: `translateY(${offsetY * 0.5}px)` }}
         priority
       />
