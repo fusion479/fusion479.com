@@ -27,7 +27,8 @@ export default function Home() {
       className="relative overflow-hidden pb-16 pt-20 text-center lg:pt-32"
     >
       <Image
-        className="absolute max-w-none lg:h-auto h-full lg:w-full translate-y-1/4"
+        // TODO: Redo this
+        className="absolute max-w-none top-0 lg:h-auto h-full lg:w-full translate-y-1/4"
         src={backgroundImage}
         alt="background image"
         width={1558}

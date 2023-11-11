@@ -27,7 +27,7 @@ export default function About() {
       className="relative overflow-hidden pb-16 pt-20 lg:pt-32"
     >
       <Image
-        className="absolute max-w-none top-0"
+        className="absolute top-0 right-0 left-0 mx-auto"
         src={backgroundImage}
         alt="background image"
         width={1558}

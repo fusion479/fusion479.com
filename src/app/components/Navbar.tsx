@@ -37,7 +37,7 @@ export default function Navbar() {
               Stuy Fusion
             </span>
           </Link>
-          <div>
+          <div className="hidden sm:block">
             <Navlink margin href="/">
               Home
             </Navlink>
