@@ -1,6 +1,6 @@
 export default function Team() {
   return (
-    <div className="gap-10 md:grid auto-rows-fr md:grid-cols-2 lg:grid-cols-3">
+    <div className="gap-10 grid auto-rows-fr grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
       {new Array(9).fill(0).map((member, i) => (
         <div
           key={i}
@@ -12,7 +12,7 @@ export default function Team() {
               height={164}
               width={164}
               alt="img"
-              className="h-20 lg:h-[164px] rounded-full border-[1px] border-slate-300"
+              className="h-[164px] rounded-full border-[1px] border-slate-300"
             />
           </div>
           <span className="text-base font-semibold md:text-2xl text-gray-950">
