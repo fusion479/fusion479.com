@@ -6,9 +6,8 @@ import Image from "next/image";
 import backgroundImage from "../../../public/backgrounds/spray.jpg";
 import { useEffect, useState } from "react";
 import Hero from "./components/Hero";
-import Timeline from "./components/Timeline";
 import Copyright from "@/components/Copyright";
-import Robots from "./components/robots/Robots";
+import Robots from "./components/Robots";
 
 export default function About() {
   const [offsetY, setOffsetY] = useState(0);

@@ -1,4 +1,3 @@
-import SectionTitle from "@/components/SectionTitle";
 import Info from "./Info";
 import Timeline from "./Timeline";
 

@@ -1,1 +1,1 @@
-export { Robots } from "./Robots";
+export { default } from "./Robots";
