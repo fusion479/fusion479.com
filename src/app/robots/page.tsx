@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import Hero from "./components/Hero";
 import Timeline from "./components/Timeline";
 import Copyright from "@/components/Copyright";
+import Robots from "./components/robots/Robots";
 
 export default function About() {
   const [offsetY, setOffsetY] = useState(0);
@@ -37,7 +38,7 @@ export default function About() {
       />
       <Container className="relative">
         <Hero />
-        <Timeline />
+        <Robots />
         <Copyright theme="dark" />
       </Container>
     </motion.section>
