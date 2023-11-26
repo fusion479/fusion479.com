@@ -1,9 +1,9 @@
 import Card from "./Card";
 
-export default function Heads() {
+export default function Executives() {
   return (
-    <div className="gap-10 grid auto-rows-fr grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20">
-      {new Array(3).fill(0).map((_, i) => (
+    <div className="gap-10 grid auto-rows-fr grid-cols-1 sm:grid-cols-2">
+      {new Array(2).fill(0).map((_, i) => (
         <Card
           key={i}
           name="John Doe"

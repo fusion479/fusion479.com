@@ -8,8 +8,8 @@ import logoStatamic from "../../../public/logos/statamic.svg";
 
 export default function Sponsors() {
   return (
-    <div className="mt-36 xl:mt-40">
-      <p className="font-display text-base text-gray-50">
+    <div className="mt-36 xl:mt-54">
+      <p className="font-display text-base text-gray-100">
         Proudly sponsored by
       </p>
       <ul
