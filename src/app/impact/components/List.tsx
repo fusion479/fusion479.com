@@ -1,13 +1,11 @@
-import React from "react";
-
-export default function Timeline() {
+export default function List() {
   return (
-    <div className="relative mb-10 sm:px-10 md:px-28 lg:p-0">
+    <div className="relative mb-10 mt-20">
       {new Array(5).fill(0).map((_, i) => (
-        <React.Fragment key={i}>
-          <div className="border-l-[1px] hidden lg:block border-slate-300 h-36 right-1/2 absolute" />
-          <div className="flex flex-col items-center lg:flex-row pt-20">
-            <div className="p-10 bg-white shadow-md rounded-lg mb-6 lg:mb-0">
+        <>
+          <div className="border-l-[1px] border-slate-300 h-36 right-1/2 absolute" />
+          <div className="flex pt-20">
+            <div className="p-10 bg-white shadow-md rounded-lg">
               <p className="text-blue-500 tracking-wide text-2xl mb-1 font-medium font-merinda">
                 April 13th, 1839
               </p>
@@ -21,16 +19,19 @@ export default function Timeline() {
                 aspernatur inventore, qui eligendi alias suscipit iure delectus!
                 Eius sit expedita officiis quidem sequi in dolore ullam
                 consectetur! Recusandae possimus quis assumenda aliquam vitae
-                maxime eaque iusto dicta soluta nostrum mollitia esse explicabo.
+                maxime eaque iusto dicta soluta nostrum mollitia esse
+                consequatur, ut provident! Accusamus atque sapiente delectus
+                neque, corrupti dolore sit odio excepturi quis nihil, illo
+                explicabo.
               </p>
             </div>
             <img
               src="placeholder_image.jpg"
               alt="placeholder"
-              className="lg:ml-6"
+              className="ml-6"
             />
           </div>
-        </React.Fragment>
+        </>
       ))}
     </div>
   );

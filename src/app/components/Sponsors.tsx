@@ -9,9 +9,7 @@ import logoStatamic from "../../../public/logos/statamic.svg";
 export default function Sponsors() {
   return (
     <div className="mt-36 xl:mt-54">
-      <p className="font-display text-base text-gray-100">
-        Proudly sponsored by
-      </p>
+      <p className="font-display text-base text-white">Proudly sponsored by</p>
       <ul
         role="list"
         className="mt-4 flex items-center justify-center gap-x-8 flex-wrap"

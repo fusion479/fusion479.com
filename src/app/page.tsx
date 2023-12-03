@@ -9,7 +9,9 @@ import Container from "@/components/Container";
 import { useEffect, useState } from "react";
 import Copyright from "@/components/Copyright";
 import About from "./components/About";
+import bottom_curve from "../../public/backgrounds/bottom_curve.svg";
 import gradient from "../../public/backgrounds/gradient.svg";
+import Game from "./components/Game";
 
 export default function Home() {
   const [offsetY, setOffsetY] = useState(0);
@@ -44,11 +46,21 @@ export default function Home() {
         </Container>
       </div>
 
-      <Container>
-        <About />
-      </Container>
-      <div className="h-96" />
-      <Copyright theme="dark" />
+      <div className="relative pb-16 pt-20 text-center xl:pt-32 bottom-0 overflow-hidden">
+        <Image
+          className="absolute max-w-none -right-full lg:-right-1/2 xl:right-auto bottom-0 xl:h-auto h-full xl:w-full"
+          src={bottom_curve}
+          alt="background image"
+          priority
+        />
+        <Container className="relative">
+          <About />
+          <Game />
+        </Container>
+        <div className="relative">
+          <Copyright theme="light" />
+        </div>
+      </div>
     </motion.section>
   );
 }

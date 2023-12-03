@@ -1,4 +1,4 @@
-export default function Info() {
+export default function Info({ active }: { active: number }) {
   return (
     <div className="max-w-4xl flex flex-col justify-center items-center">
       <img src="placeholder_image.jpg" alt="robot picture" />
