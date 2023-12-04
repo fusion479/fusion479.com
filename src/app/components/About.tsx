@@ -1,10 +1,11 @@
 export default function About() {
   return (
     <div>
-      <h1 className="max-w-4xl mx-auto text-center font-display text-5xl font-medium tracking-tight text-slate-899 sm:text-6xl">
-        Who are we?
+      <h1 className="max-w-4xl mx-auto text-center font-display text-5xl font-semibold text-blue-600 sm:text-6xl">
+        Stuy
+        <span className="text-[#ff83c5]"> Fusion</span>.
       </h1>{" "}
-      <div className="flex mt-12 items-center justify-center">
+      <div className="flex mt-2 items-center justify-center">
         <img
           src="/placeholder_image.jpg"
           alt="3D model of robot"

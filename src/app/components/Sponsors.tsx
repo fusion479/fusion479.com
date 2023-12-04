@@ -1,10 +1,10 @@
 import Image from "next/image";
-import logoTransistor from "../../../public/logos/transistor.svg";
-import logoTuple from "../../../public/logos/tuple.svg";
-import logoStaticKit from "../../../public/logos/statickit.svg";
-import logoMirage from "../../../public/logos/mirage.svg";
-import logoLaravel from "../../../public/logos/laravel.svg";
-import logoStatamic from "../../../public/logos/statamic.svg";
+import logoTransistor from "../../../public/sponsors/transistor.svg";
+import logoTuple from "../../../public/sponsors/tuple.svg";
+import logoStaticKit from "../../../public/sponsors/statickit.svg";
+import logoMirage from "../../../public/sponsors/mirage.svg";
+import logoLaravel from "../../../public/sponsors/laravel.svg";
+import logoStatamic from "../../../public/sponsors/statamic.svg";
 
 export default function Sponsors() {
   return (

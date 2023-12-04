@@ -10,7 +10,6 @@ import { useEffect, useState } from "react";
 import Copyright from "@/components/Copyright";
 import About from "./components/About";
 import bottom_curve from "../../public/backgrounds/bottom_curve.svg";
-import gradient from "../../public/backgrounds/gradient.svg";
 import Game from "./components/Game";
 
 export default function Home() {
@@ -33,7 +32,7 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <div className="relative pb-16 pt-20 text-center xl:pt-32 overflow-hidden h-[100vh]">
+      <div className="relative pt-20 text-center overflow-hidden h-[97vh]">
         <Image
           className="absolute max-w-none -right-full lg:-right-1/2 xl:right-auto xl:h-auto h-full xl:w-full"
           src={curve}
@@ -46,7 +45,7 @@ export default function Home() {
         </Container>
       </div>
 
-      <div className="relative pb-16 pt-20 text-center xl:pt-32 bottom-0 overflow-hidden">
+      <div className="relative pb-16 text-center bottom-0 overflow-hidden">
         <Image
           className="absolute max-w-none -right-full lg:-right-1/2 xl:right-auto bottom-0 xl:h-auto h-full xl:w-full"
           src={bottom_curve}
