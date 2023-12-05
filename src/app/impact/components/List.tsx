@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function List() {
@@ -29,6 +30,13 @@ export default function List() {
         <React.Fragment key={i}>
           <div className="border-l-[1px] border-slate-300 h-36 right-1/2 absolute" />
           <div className="flex pt-20 items-center">
+            {i === 1 && (
+              <img
+                src={item.img}
+                alt="placeholder"
+                className="mr-6 w-2/5 rounded-lg"
+              />
+            )}
             <div className="p-10 bg-white shadow-md rounded-lg">
               <p className="text-blue-500 tracking-wide text-2xl mb-1 font-medium font-merinda">
                 {item.title}
@@ -38,11 +46,13 @@ export default function List() {
               </h3>
               <p className="text-gray-500">{item.description}</p>
             </div>
-            <img
-              src={item.img || "/placeholder_image..jpg"}
-              alt="placeholder"
-              className="ml-6 w-2/5 rounded-lg"
-            />
+            {i !== 1 && (
+              <img
+                src={item.img}
+                alt="placeholder"
+                className="ml-6 w-2/5 rounded-lg"
+              />
+            )}
           </div>
         </React.Fragment>
       ))}

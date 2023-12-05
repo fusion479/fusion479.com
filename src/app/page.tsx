@@ -32,7 +32,7 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <div className="relative pt-20 text-center overflow-hidden h-[97vh]">
+      <div className="relative pt-44 text-center overflow-hidden h-[103vh]">
         <Image
           className="absolute max-w-none -right-full lg:-right-1/2 xl:right-auto xl:h-auto h-full xl:w-full"
           src={curve}
