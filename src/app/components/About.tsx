@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <h1 className="max-w-4xl mx-auto text-center font-display text-5xl font-semibold text-blue-600 sm:text-6xl">
+      <h1 className="max-w-4xl mx-auto text-center font-display text-5xl font-medium tracking-tight text-blue-600 sm:text-6xl">
         Stuy
         <span className="text-[#ff83c5]">Fusion</span>.
       </h1>{" "}
