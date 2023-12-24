@@ -2,7 +2,7 @@ import Card from "./Card";
 
 export default function Members() {
   return (
-    <div className="gap-10 grid auto-rows-fr grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-20">
+    <div className="gap-10 grid auto-rows-fr grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 mt-20">
       {new Array(8).fill(0).map((_, i) => (
         <div key={i}>
           <div className="justify-center pb-8 grid place-items-center">

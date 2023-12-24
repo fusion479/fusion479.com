@@ -1,30 +1,29 @@
 import Marquee from "react-fast-marquee";
+import Image from "next/image";
 
 export default function Slider() {
   return (
     <>
       <Marquee className="h-64" speed={75}>
-        {new Array(10).fill(0).map((_, i) => (
+        {["1.jpeg", "2.jpg", "3.jpg", "4.jpg", "5.jpeg"].map((v, i) => (
           <img
-            src="placeholder_image.jpg"
-            alt="placeholder"
-            className={`mr-12 h-52 ${
+            src={`/community/${v}`}
+            className={`mr-12 h-52 rounded-lg ${
               i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
             }`}
           />
         ))}
       </Marquee>
-      <Marquee className="h-64" speed={75} direction="right">
-        {new Array(10).fill(0).map((_, i) => (
+      <Marquee className="h-64" speed={75}>
+        {["6.jpeg", "7.jpeg", "8.jpeg", "9.jpeg", "10.jpeg"].map((v, i) => (
           <img
-            src="placeholder_image.jpg"
-            alt="placeholder"
-            className={`mr-12 h-52 ${
+            src={`/community/${v}`}
+            className={`mr-12 h-52 rounded-lg ${
               i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
             }`}
           />
         ))}
-      </Marquee>
+      </Marquee>{" "}
     </>
   );
 }
