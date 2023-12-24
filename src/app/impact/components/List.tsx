@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 export default function List() {
@@ -29,30 +28,29 @@ export default function List() {
       ].map((item, i) => (
         <React.Fragment key={i}>
           <div className="border-l-[1px] border-slate-300 h-36 right-1/2 absolute" />
-          <div className="flex pt-20 items-center">
-            {i === 1 && (
-              <img
-                src={item.img}
-                alt="placeholder"
-                className="mr-6 w-2/5 rounded-lg"
-              />
-            )}
+          <div
+            className={`flex flex-col ${
+              i % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
+            } pt-20 items-center`}
+          >
             <div className="p-10 bg-white shadow-md rounded-lg">
-              <p className="text-blue-500 tracking-wide text-2xl mb-1 font-medium font-merinda">
+              <p className="text-blue-500 tracking-wide text-lg sm:text-xl lg:text-2xl mb-1 font-medium font-merinda">
                 {item.title}
               </p>
-              <h3 className="text-3xl tracking-wide font-medium mb-4 font-merinda">
+              <h3 className="lg:text-3xl tracking-wide font-medium sm:text-2xl text-xl mb-4 font-merinda">
                 {item.subtitle}
               </h3>
-              <p className="text-gray-500">{item.description}</p>
+              <p className="text-gray-500 text-sm lg:text-base">
+                {item.description}
+              </p>
             </div>
-            {i !== 1 && (
-              <img
-                src={item.img}
-                alt="placeholder"
-                className="ml-6 w-2/5 rounded-lg"
-              />
-            )}
+            <img
+              src={item.img}
+              alt="placeholder"
+              className={`w-4/5 ${
+                i % 2 === 0 ? "lg:ml-6" : "lg:mr-6"
+              } mt-8 lg:mt-0 lg:w-2/5 rounded-lg`}
+            />
           </div>
         </React.Fragment>
       ))}

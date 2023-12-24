@@ -36,7 +36,6 @@ export default function About() {
         priority
       />
       <Container className="relative">
-        <Hero />
         <Robots />
         <Copyright theme="dark" />
       </Container>

@@ -44,10 +44,10 @@ export default function Navbar() {
             <Navlink margin href="/about">
               About
             </Navlink>
-            <Navlink href="/robots" margin>
-              Robots
+            <Navlink href="/impact" margin>
+              Impact
             </Navlink>
-            <Navlink href="/impact">Impact</Navlink>
+            <Navlink href="/robots">Robots</Navlink>
           </div>
         </nav>
       </Container>
