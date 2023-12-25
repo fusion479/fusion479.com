@@ -1,15 +1,15 @@
 export default function About() {
   return (
     <div>
-      <h1 className="max-w-4xl mx-auto text-center font-display text-5xl font-medium tracking-tight text-blue-600 sm:text-6xl">
+      <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-5xl font-medium tracking-tight text-blue-600 sm:text-6xl">
         Stuy
-        <span className="text-[#ff83c5]">Fusion</span>.
+        <span className="text-[#ff83c5]"> Fusion</span>.
       </h1>{" "}
       <div className="flex mt-2 items-center justify-center">
         <img
-          src="/placeholder_image.jpg"
+          src="/landing/team.jpeg"
           alt="3D model of robot"
-          className="xl:w-5/12"
+          className="xl:w-5/12 rounded-lg mr-6 mt-6"
         />
         <div>
           <p className="mt-6 max-w-2xl text-lg tracking-tight text-slate-700">

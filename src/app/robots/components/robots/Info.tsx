@@ -1,5 +1,3 @@
-import Name from "./Name";
-
 export default function Info({ active }: { active: number }) {
   return (
     <div className="xl:max-w-4xl flex flex-col justify-center items-center">

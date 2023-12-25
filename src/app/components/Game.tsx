@@ -1,23 +1,19 @@
 export default function Game() {
   return (
     <div>
-      <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
-        FIRST Tech Challenge.
-      </h1>
-      <div className="flex mt-12 items-center justify-center">
-        <img
-          src="/placeholder_image.jpg"
-          alt="3D model of robot"
-          className="xl:w-5/12"
-        />
+      <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-5xl font-medium tracking-tight sm:text-6xl">
+        FIRST Tech Challenge
+      </h1>{" "}
+      <div className="flex mt-2 items-center justify-center">
         <div>
           <p className="mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-            We compete in FTC. Throughout the school year, we assemble robots to
-            compete with other teams. FIRST builds strong and supportive
-            communities so that students can help each other, even across team
-            boundaries. In addition to building a robot, our team has outreach
-            initiatives to promote STEM and give back to our community. You can
-            read more about that in our page about our community impact.
+            We are Team 479 Stuy Fusion, a robotics team from Stuyvesant High
+            School, NYC. Our team competes annually in the First Tech Challenge
+            (FTC). We are also part of Stuyvesant Robotics, a 501(c)(3)
+            nonprofit which includes our sister teams, FTC 310 Stuy Fission and
+            FRC 694 Stuy Pulse. Our mission is to create a robot viable for the
+            highest levels of competition while fostering a welcoming STEM
+            community.
           </p>
           <p className="mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -26,6 +22,11 @@ export default function Game() {
             aliquip ex ea commodo consequat.
           </p>
         </div>
+        <img
+          src="/landing/ftc.jpeg"
+          alt="3D model of robot"
+          className="xl:w-5/12 rounded-lg ml-6 mt-6"
+        />
       </div>
     </div>
   );
