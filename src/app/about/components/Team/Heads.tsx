@@ -10,7 +10,7 @@ export default function Heads() {
         >
           <div className="flex justify-center pb-8">
             <img
-              src="avatar.webp"
+              src="/team/avatar.webp"
               height={164}
               width={164}
               alt="img"

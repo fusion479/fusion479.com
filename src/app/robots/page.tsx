@@ -5,7 +5,6 @@ import Container from "@/components/Container";
 import Image from "next/image";
 import backgroundImage from "../../../public/backgrounds/spray.jpg";
 import { useEffect, useState } from "react";
-import Hero from "./components/Hero";
 import Copyright from "@/components/Copyright";
 import Robots from "./components/Robots";
 

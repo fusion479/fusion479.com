@@ -44,9 +44,8 @@ export default function Navbar() {
             <Navlink margin href="/about">
               About
             </Navlink>
-            <Navlink href="/impact" margin>
-              Impact
-            </Navlink>
+            <Navlink href="/impact">Impact</Navlink>
+            <div className="mx-6 inline-block font-thin">|</div>
             <Navlink href="/robots">Robots</Navlink>
           </div>
         </nav>

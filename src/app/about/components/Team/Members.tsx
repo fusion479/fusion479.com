@@ -7,7 +7,7 @@ export default function Members() {
         <div key={i}>
           <div className="justify-center pb-8 grid place-items-center">
             <img
-              src="avatar.webp"
+              src="/team/avatar.webp"
               height={100}
               width={100}
               alt="img"
