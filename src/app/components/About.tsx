@@ -5,14 +5,14 @@ export default function About() {
         Stuy
         <span className="text-[#ff83c5]"> Fusion</span>.
       </h1>{" "}
-      <div className="flex mt-2 items-center justify-center">
+      <div className="flex flex-col md:flex-row mt-2 items-center justify-center">
         <img
           src="/landing/team.jpeg"
           alt="3D model of robot"
           className="xl:w-5/12 rounded-lg mr-6 mt-6"
         />
-        <div>
-          <p className="mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+        <div className="max-w-2xl mt-6 md:text-lg tracking-tight text-slate-700">
+          <p>
             We are Team 479 Stuy Fusion, a robotics team from Stuyvesant High
             School, NYC. Our team competes annually in the First Tech Challenge
             (FTC). We are also part of Stuyvesant Robotics, a 501(c)(3)
@@ -21,7 +21,7 @@ export default function About() {
             highest levels of competition while fostering a welcoming STEM
             community.
           </p>
-          <p className="mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+          <p className="mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

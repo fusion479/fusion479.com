@@ -1,5 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import Container from "../../components/Container";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 function Navlink({
   href,
@@ -23,9 +28,11 @@ function Navlink({
 }
 
 export default function Navbar() {
+  const [toggle, setToggled] = useState(false);
+
   return (
     <header className="py-10">
-      <Container>
+      <Container className="relative">
         <nav className="flex items-center justify-between">
           <Link href="/" className="flex items-center cursor-pointer">
             <img
@@ -37,6 +44,29 @@ export default function Navbar() {
               Stuy Fusion
             </span>
           </Link>
+          <RxHamburgerMenu
+            onClick={() => setToggled(!toggle)}
+            onMouseLeave={() => setToggled(false)}
+            className="sm:hidden w-5 h-5"
+          />
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: toggle ? 1 : 0 }}
+            transition={{ duration: 0.3 }}
+            className={`${
+              toggle ? "absolute" : "hidden"
+            } right-0 shadow-md rounded-lg p-2 bg-white bottom-0 mr-6 translate-y-6`}
+          >
+            <Navlink margin href="/">
+              Home
+            </Navlink>
+            <Navlink margin href="/about">
+              About
+            </Navlink>
+            <Navlink href="/impact">Impact</Navlink>
+            <div className="mx-6 inline-block font-thin">|</div>
+            <Navlink href="/robots">Robots</Navlink>
+          </motion.div>
           <div className="hidden sm:block">
             <Navlink margin href="/">
               Home
