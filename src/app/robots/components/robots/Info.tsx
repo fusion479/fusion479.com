@@ -14,7 +14,7 @@ export default function Info({ active }: { active: number }) {
           Theo
         </span>
       </div>
-      <img src="placeholder_image.jpg" alt="robot picture" />
+      <img src="/robots/powerplay.webp" alt="robot picture" />
       <p className="mt-6 max-w-3xl text-base tracking-wide text-slate-700">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

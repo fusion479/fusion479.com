@@ -38,9 +38,9 @@ export default function Navbar() {
             <img
               src="/logo.png"
               alt="Stuy Fusion Logo"
-              className="h-12 w-12 mr-2"
+              className="h-16 w-16 mr-2"
             />
-            <span className="font-cursive text-xl text-blue-700">
+            <span className="text-4xl font-semibold text-blue-500">
               Stuy Fusion
             </span>
           </Link>

@@ -1,5 +1,4 @@
 export default function About() {
-  cons;
   return (
     <div>
       <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-5xl font-medium tracking-tight text-blue-600 sm:text-6xl">
