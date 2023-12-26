@@ -1,15 +1,16 @@
 export default function About() {
+  cons;
   return (
     <div>
       <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-5xl font-medium tracking-tight text-blue-600 sm:text-6xl">
         Stuy
         <span className="text-[#ff83c5]"> Fusion</span>.
       </h1>{" "}
-      <div className="flex flex-col md:flex-row mt-2 items-center justify-center">
+      <div className="flex flex-col lg:flex-row mt-2 items-center justify-center">
         <img
           src="/landing/team.jpeg"
           alt="3D model of robot"
-          className="xl:w-5/12 rounded-lg mr-6 mt-6"
+          className="lg:w-5/12 rounded-lg md:mr-6 mt-6"
         />
         <div className="max-w-2xl mt-6 md:text-lg tracking-tight text-slate-700">
           <p>

@@ -4,16 +4,15 @@ export default function Game() {
       <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-3xl md:text-5xl font-medium tracking-tight sm:text-6xl">
         FIRST Tech Challenge
       </h1>{" "}
-      <div className="flex flex-col md:flex-row mt-2 items-center justify-center">
+      <div className="flex flex-col lg:flex-row mt-2 items-center justify-center">
         <div className="max-w-2xl mt-2 md:text-lg tracking-tight text-slate-700">
           <p>
-            We are Team 479 Stuy Fusion, a robotics team from Stuyvesant High
-            School, NYC. Our team competes annually in the First Tech Challenge
-            (FTC). We are also part of Stuyvesant Robotics, a 501(c)(3)
-            nonprofit which includes our sister teams, FTC 310 Stuy Fission and
-            FRC 694 Stuy Pulse. Our mission is to create a robot viable for the
-            highest levels of competition while fostering a welcoming STEM
-            community.
+            We compete in FTC. Throughout the school year, we assemble robots to
+            compete with other teams. FIRST builds strong and supportive
+            communities so that students can help each other, even across team
+            boundaries. In addition to building a robot, our team has outreach
+            initiatives to promote STEM and give back to our community. You can
+            read more about that in our page about our community impact.
           </p>
           <p className="mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -25,7 +24,7 @@ export default function Game() {
         <img
           src="/landing/ftc.jpeg"
           alt="3D model of robot"
-          className="xl:w-5/12 rounded-lg md:ml-6 mt-6"
+          className="lg:w-5/12 rounded-lg md:ml-6 mt-6"
         />
       </div>
     </div>
