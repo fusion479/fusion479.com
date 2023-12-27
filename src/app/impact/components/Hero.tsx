@@ -1,12 +1,12 @@
 import Title from "@/components/Title";
-import heroImage from "../../../../public/impact/hero.png";
+import hero from "../../../../public/impact/hero.png";
 import Image from "next/image";
 
 export default function Hero() {
   return (
     <div className="flex items-center flex-col-reverse xl:flex-row">
       <Image
-        src={heroImage}
+        src={hero}
         alt="Image: opening image to the website depicting team 479 as community members"
         className="xl:w-1/2 rounded-lg mt-8 xl:mt-0"
       />
