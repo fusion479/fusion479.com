@@ -1,4 +1,5 @@
-import Card from "./Card";
+import Image from "next/image";
+import avatar from "../../../../../public/team/avatar.webp";
 
 export default function Executives() {
   return (
@@ -8,8 +9,9 @@ export default function Executives() {
           key={i}
           className="w-full flex-col xl:flex-row flex bg-white h-full p-8 text-left shadow-md rounded-3xl"
         >
-          <img
-            src="/team/avatar.webp"
+          <Image
+            src={avatar}
+            alt="Image: headshot of one of our team members"
             className="xl:w-52 xl:mr-8 xl:flex-none aspect-[3/2] xl:mt-0 mb-8 xl:mb-0 w-full rounded-2xl object-cover"
           />
           <div>

@@ -1,3 +1,6 @@
+import Image from "next/image";
+import team from "../../../public/landing/team.jpeg";
+
 export default function About() {
   return (
     <div>
@@ -6,9 +9,9 @@ export default function About() {
         <span className="text-[#ff83c5]"> Fusion</span>.
       </h1>{" "}
       <div className="flex flex-col lg:flex-row mt-2 items-center justify-center">
-        <img
-          src="/landing/team.jpeg"
-          alt="3D model of robot"
+        <Image
+          src={team}
+          alt="Image: a photo of team 479's members together holding up a banner"
           className="lg:w-5/12 rounded-lg md:mr-6 mt-6"
         />
         <div className="max-w-2xl mt-6 md:text-lg tracking-tight text-slate-700">

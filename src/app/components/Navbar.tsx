@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import Container from "../../components/Container";
+import logo from "../../../public/logo.png";
+import Image from "next/image";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -35,9 +37,9 @@ export default function Navbar() {
       <Container className="relative">
         <nav className="flex items-center justify-between">
           <Link href="/" className="flex items-center cursor-pointer">
-            <img
-              src="/logo.png"
-              alt="Stuy Fusion Logo"
+            <Image
+              src={logo}
+              alt="Image: Stuy Fusion logo"
               className="h-16 w-16 mr-2"
             />
             <span className="text-4xl font-semibold text-blue-500">

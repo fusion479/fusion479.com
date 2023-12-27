@@ -1,3 +1,6 @@
+import Image from "next/image";
+import powerplay from "../../../../../public/robots/powerplay.webp";
+
 export default function Info({ active }: { active: number }) {
   return (
     <div className="xl:max-w-4xl flex flex-col justify-center items-center">
@@ -14,7 +17,10 @@ export default function Info({ active }: { active: number }) {
           Theo
         </span>
       </div>
-      <img src="/robots/powerplay.webp" alt="robot picture" />
+      <Image
+        src={powerplay}
+        alt="Image: team 479's powerplay (2023 season) robot in a render"
+      />
       <p className="mt-6 max-w-3xl text-base tracking-wide text-slate-700">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

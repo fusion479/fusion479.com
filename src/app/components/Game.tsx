@@ -1,3 +1,6 @@
+import Image from "next/image";
+import ftc from "../../../public/landing/ftc.jpeg";
+
 export default function Game() {
   return (
     <div>
@@ -21,9 +24,9 @@ export default function Game() {
             aliquip ex ea commodo consequat.
           </p>
         </div>{" "}
-        <img
-          src="/landing/ftc.jpeg"
-          alt="3D model of robot"
+        <Image
+          src={ftc}
+          alt="Image: picture of a FTC match"
           className="lg:w-5/12 rounded-lg md:ml-6 mt-6"
         />
       </div>

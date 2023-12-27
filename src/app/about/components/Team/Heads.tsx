@@ -1,4 +1,5 @@
-import Card from "./Card";
+import Image from "next/image";
+import avatar from "../../../../../public/team/avatar.webp";
 
 export default function Heads() {
   return (
@@ -9,8 +10,8 @@ export default function Heads() {
           className="w-full bg-white h-full p-8 text-left shadow-md rounded-3xl"
         >
           <div className="flex justify-center pb-8">
-            <img
-              src="/team/avatar.webp"
+            <Image
+              src={avatar}
               height={164}
               width={164}
               alt="img"

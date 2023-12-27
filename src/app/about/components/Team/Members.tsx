@@ -1,4 +1,5 @@
-import Card from "./Card";
+import Image from "next/image";
+import avatar from "../../../../../public/team/avatar.webp";
 
 export default function Members() {
   return (
@@ -6,8 +7,8 @@ export default function Members() {
       {new Array(8).fill(0).map((_, i) => (
         <div key={i}>
           <div className="justify-center pb-8 grid place-items-center">
-            <img
-              src="/team/avatar.webp"
+            <Image
+              src={avatar}
               height={100}
               width={100}
               alt="img"

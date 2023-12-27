@@ -1,32 +1,47 @@
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
 
+import one from "../../../../public/community/1.jpeg";
+import two from "../../../../public/community/2.jpg";
+import three from "../../../../public/community/3.jpg";
+import four from "../../../../public/community/4.jpg";
+import five from "../../../../public/community/5.jpeg";
+import six from "../../../../public/community/6.jpeg";
+import seven from "../../../../public/community/7.jpeg";
+import eight from "../../../../public/community/8.jpeg";
+import nine from "../../../../public/community/9.jpeg";
+import ten from "../../../../public/community/10.jpeg";
+import eleven from "../../../../public/community/11.jpeg";
+import twelve from "../../../../public/community/12.jpeg";
+
 export default function Slider() {
   return (
     <>
       <Marquee className="h-64" speed={75}>
-        {["1.jpeg", "2.jpg", "3.jpg", "4.jpg", "5.jpeg", "6.jpeg"].map(
-          (v, i) => (
-            <img
-              src={`/community/${v}`}
-              className={`mr-12 h-52 rounded-lg ${
-                i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
-              }`}
-            />
-          ),
-        )}
+        {[one, two, three, four, five, six].map((v, i) => (
+          <Image
+            key={i}
+            src={v}
+            height={224}
+            className={`mr-12 rounded-lg ${
+              i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
+            }`}
+            alt="Looping image slider: FTC Team 479 team members at various events and being community members."
+          />
+        ))}
       </Marquee>
       <Marquee className="h-64" speed={75}>
-        {["7.jpeg", "8.jpeg", "9.jpeg", "10.jpeg", "11.jpeg", "12.jpeg"].map(
-          (v, i) => (
-            <img
-              src={`/community/${v}`}
-              className={`mr-12 h-52 rounded-lg ${
-                i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
-              }`}
-            />
-          ),
-        )}
+        {[seven, eight, nine, ten, eleven, twelve].map((v, i) => (
+          <Image
+            key={i}
+            src={v}
+            height={224}
+            className={`mr-12 rounded-lg ${
+              i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
+            }`}
+            alt="Looper image slider: FTC Team 479 team members at various events and being community members."
+          />
+        ))}
       </Marquee>{" "}
     </>
   );
