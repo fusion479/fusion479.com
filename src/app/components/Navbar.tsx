@@ -20,9 +20,8 @@ function Navlink({
   return (
     <Link
       href={href}
-      className={`inline-block hover:-translate-y-1 duration-150 font-light rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-blue-600 ${
-        margin && "mr-6"
-      }`}
+      className={`inline-block hover:-translate-y-1 duration-150 font-light rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-blue-600 ${margin && "mr-6"
+        }`}
     >
       {children}
     </Link>
@@ -55,9 +54,8 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: toggle ? 1 : 0 }}
             transition={{ duration: 0.3 }}
-            className={`${
-              toggle ? "absolute" : "hidden"
-            } right-0 shadow-md rounded-lg p-2 bg-white bottom-0 mr-6 translate-y-6`}
+            className={`${toggle ? "absolute" : "hidden"
+              } right-0 shadow-md rounded-lg p-2 bg-white bottom-0 mr-6 translate-y-6`}
           >
             <Navlink margin href="/">
               Home
