@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import Container from "../../components/Container";
 import logo from "../../../public/logo.png";
