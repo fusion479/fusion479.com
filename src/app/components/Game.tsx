@@ -18,10 +18,9 @@ export default function Game() {
             read more about that in our page about our community impact.
           </p>
           <p className="mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            FIRST Tech Challenge (FTC) is a dynamic robotics competition that
+            challenges teams of students to design, build, and program robots to
+            compete in an exciting game-based format.
           </p>
         </div>{" "}
         <Image

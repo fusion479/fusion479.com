@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="max-w-3xl ml-auto mr-auto">
       <Title
         bold="a community,"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="FTC 479 engages the community, sharing robotics passion to inspire and educate our youth."
       />
     </div>
   );

@@ -12,8 +12,8 @@ export default function Hero() {
       />
       <div className="xl:w-1/2 xl:mb-0 mb-6">
         <Title
-          bold="blah,"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          bold="impacts,"
+          description="479's outreach fuels community impact through engaged collaboration and meaningful initiatives."
         />
       </div>
     </div>

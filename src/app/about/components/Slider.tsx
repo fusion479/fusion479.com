@@ -21,6 +21,7 @@ export default function Slider() {
         {[one, two, three, four, five, six].map((v, i) => (
           <Image
             key={i}
+            priority
             src={v}
             height={224}
             className={`mr-12 rounded-lg ${

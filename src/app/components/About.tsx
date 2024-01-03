@@ -25,10 +25,10 @@ export default function About() {
             community.
           </p>
           <p className="mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            FTC 479 Stuy Fusion is a team dedicated to pushing the boundaries of
+            innovation in the field of FIRST Tech Challenge (FTC). We epitomize
+            excellence through their unwavering commitment to engineering
+            brilliance and teamwork.
           </p>
         </div>
       </div>
