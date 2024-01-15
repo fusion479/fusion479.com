@@ -10,7 +10,7 @@ export default function Executives() {
           role: "President",
           avatar,
           description:
-            "After joining robotics in my sophomore year, I took charge of finances and logistics for the team and for trips. Transitioning into junior year, I expanded to software engineering via writing our autonomous. Now, as a Senior  and the President, I've not only tripled the frequency of team dinners, fostering a more connected community, but also assumed a comprehensive role overseeing all aspects of our team: Engineering, Software, and Logistics.",
+            "Robotics and technology have fascinated me ever since I was a child. Joining 479 as a sophomore, I was a little late to the party, but I felt like I was still welcomed and encouraged to learn just like everyone else. The adrenaline you get watching the team succeed is unlike any other, and you feel kind of proud in a way. FTC has allowed me to develop my skills as an amateur engineer, machinist, software developer, and team leader, and has made me into a more well-rounded individual.",
         },
 
         {
