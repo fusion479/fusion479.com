@@ -6,7 +6,7 @@ export default function Heads() {
     <div className="gap-10 grid auto-rows-fr grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20">
       {new Array(
         {
-          name: "Megan Chen",
+          name: "Megan Chan",
           role: "Head of Engineering",
           avatar,
           description:
@@ -14,7 +14,7 @@ export default function Heads() {
         },
 
         {
-          name: "Princeden Chen",
+          name: "Princeden Hom",
           role: "Vice President",
           avatar,
           description:
