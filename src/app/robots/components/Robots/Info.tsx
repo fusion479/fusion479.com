@@ -44,11 +44,12 @@ export default function Info({ active }: { active: number }) {
             {[
               "NYC Qualifier 3 Design Award",
               "NYC Qualifier 5 Winning Alliance",
+              "NYC Qualifier 5 Winning Alliance",
               "NYC Super Qualifier Innovate Award",
               "NYC Super Qualifier Inspire Award 2nd place",
               "NYC Championship Motivate Award",
-            ].map((v, i) => (
-              <li className="flex text-slate-500 text-sm font-semibold" key={i}>
+            ].map((v) => (
+              <li className="flex text-slate-500 text-sm font-semibold" key={v}>
                 <span className="mr-4 h-full">-</span> {v}
               </li>
             ))}
@@ -62,11 +63,12 @@ export default function Info({ active }: { active: number }) {
             {[
               "NYC Qualifier 3 Design Award",
               "NYC Qualifier 5 Winning Alliance",
+              "NYC Qualifier 5 Winning Alliance",
               "NYC Super Qualifier Innovate Award",
               "NYC Super Qualifier Inspire Award 2nd place",
               "NYC Championship Motivate Award",
-            ].map((v, i) => (
-              <li className="flex text-slate-500 text-sm font-semibold" key={i}>
+            ].map((v) => (
+              <li className="flex text-slate-500 text-sm font-semibold" key={v}>
                 <span className="mr-4 h-full">-</span> {v}
               </li>
             ))}
@@ -80,11 +82,12 @@ export default function Info({ active }: { active: number }) {
             {[
               "NYC Qualifier 3 Design Award",
               "NYC Qualifier 5 Winning Alliance",
+              "NYC Qualifier 5 Winning Alliance",
               "NYC Super Qualifier Innovate Award",
               "NYC Super Qualifier Inspire Award 2nd place",
               "NYC Championship Motivate Award",
-            ].map((v, i) => (
-              <li className="flex text-slate-500 text-sm font-semibold" key={i}>
+            ].map((v) => (
+              <li className="flex text-slate-500 text-sm font-semibold" key={v}>
                 <span className="mr-4 h-full">-</span> {v}
               </li>
             ))}

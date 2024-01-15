@@ -14,11 +14,11 @@ export default function Members() {
         { name: "Zachary Aaron", role: "Rookie Engineer" },
         { name: "Jayden Vallejo", role: "Rookie Engineer" },
         { name: "Tasfia Bietea", role: "Rookie Engineer" },
-        { name: "Kiran Yesley", role: "Rookie Engineer" },
-        { name: "Elizabeth Chen", role: "Rookie Engineer" },
-        { name: "Kelly Lin", role: "Rookie Engineer" },
+        { name: "Kiran", role: "Rookie Engineer" },
+        { name: "Elizabeth", role: "Rookie Engineer" },
+        { name: "Kelly", role: "Rookie Engineer" },
         { name: "Erica You", role: "Rookie Engineer" },
-        { name: "Ryan Kim", role: "Rookie Engineer" },
+        { name: "Ryan", role: "Rookie Engineer" },
       ].map((v, i) => (
         <div key={i}>
           <div className="justify-center pb-8 grid place-items-center">
