@@ -17,11 +17,10 @@ import twelve from "../../../../public/community/12.jpeg";
 export default function Slider() {
   return (
     <>
-      <Marquee className="h-64" speed={75}>
+      <Marquee className="h-[16.5rem]" speed={75}>
         {[one, two, three, four, five, six].map((v, i) => (
           <Image
             key={i}
-            priority
             src={v}
             height={224}
             className={`mr-12 rounded-lg ${
@@ -31,7 +30,7 @@ export default function Slider() {
           />
         ))}
       </Marquee>
-      <Marquee className="h-64" speed={75}>
+      <Marquee className="h-[16.5rem]" speed={75}>
         {[seven, eight, nine, ten, eleven, twelve].map((v, i) => (
           <Image
             key={i}
