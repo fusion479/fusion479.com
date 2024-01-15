@@ -15,7 +15,6 @@
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.2",
     "react-icons": "^4.11.0",
-    "sharp": "^0.33.2",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
