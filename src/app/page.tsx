@@ -7,14 +7,10 @@ import About from "./components/About";
 import Game from "./components/Game";
 import Sponsors from "./components/Sponsors";
 import Background from "@/components/Background";
-import Head from "next/head";
 
 export default function Landing() {
   return (
     <Background>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Container className="relative">
         <Hero />
         <Sponsors />
