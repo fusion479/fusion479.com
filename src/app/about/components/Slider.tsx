@@ -22,7 +22,9 @@ export default function Slider() {
           <Image
             key={i}
             src={v}
+            priority
             height={224}
+            placeholder="blur"
             className={`mr-12 rounded-lg ${
               i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
             }`}
@@ -35,6 +37,8 @@ export default function Slider() {
           <Image
             key={i}
             src={v}
+            priority
+            placeholder="blur"
             height={224}
             className={`mr-12 rounded-lg ${
               i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
