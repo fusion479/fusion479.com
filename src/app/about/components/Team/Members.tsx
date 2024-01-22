@@ -15,6 +15,7 @@ export default function Members() {
         { name: "Jayden Vallejo", role: "Rookie Engineer" },
         { name: "Tasfia Bietea", role: "Rookie Engineer" },
         { name: "Kiran Yesley", role: "Rookie Engineer" },
+        { name: "Jason Zhao", role: "Rookie Engineer" },
         { name: "Elizabeth Chen", role: "Rookie Engineer" },
         { name: "Kelly Lin", role: "Rookie Engineer" },
         { name: "Erica You", role: "Rookie Engineer" },
