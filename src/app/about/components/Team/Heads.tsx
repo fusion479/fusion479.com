@@ -15,7 +15,7 @@ export default function Heads() {
 
         {
           name: "Princeden Hom",
-          role: "Vice President",
+          role: "Head of Programming",
           avatar,
           description:
             "I first joined the team as sophmore, interested to learn more about software engineering. I had never been a part of a robotics team in the past, and I decided to join Team 479 by pure chance. I started with zero knowledge of programming or robotics, but over the course of the year I was able to learn enough from veteran members of the team and hands on experience with the robot, to become the head of SE this year. I’m excited to continue to develop both my leadership and robotics skills by continuing to help lead our software  efforts, and hope to continue the spirit of the team by teaching new members.",
