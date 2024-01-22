@@ -8,6 +8,7 @@ export default function Members() {
         { name: "Brandon Ngyuen", role: "Rookie Programmer" },
         { name: "Owen Shi", role: "Rookie Programmer" },
         { name: "Stephen Chen", role: "Rookie Engineer" },
+        { name: "Stas Chadrys", role: "Rookie Engineer" },
         { name: "Raahat Amin", role: "Rookie Engineer" },
         { name: "Kayden Au", role: "Rookie Engineer" },
         { name: "Xuan Yao", role: "Rookie Engineer" },
