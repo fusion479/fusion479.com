@@ -7,6 +7,8 @@ export default function Hero() {
     <div className="flex items-center flex-col-reverse xl:flex-row">
       <Image
         src={hero}
+        priority
+        placeholder="blur"
         alt="Image: opening image to the website depicting team 479 as community members"
         className="xl:w-1/2 rounded-lg mt-8 xl:mt-0"
       />

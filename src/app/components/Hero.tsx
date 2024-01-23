@@ -22,6 +22,8 @@ export default function Hero() {
       </div>
       <Image
         src={robot}
+        priority
+        placeholder="blur"
         alt="Image: render of team 479's current robot for the 2024 season"
         className="xl:w-5/12 mx-auto rounded-lg"
       />
