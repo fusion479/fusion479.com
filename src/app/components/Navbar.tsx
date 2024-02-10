@@ -42,7 +42,7 @@ export default function Navbar() {
               alt="Image: Stuy Fusion logo"
               className="h-16 w-16 mr-2"
             />
-            <span className="text-4xl font-semibold text-blue-500">
+            <span className="text-3xl font-medium text-blue-500">
               Stuy Fusion
             </span>
           </Link>

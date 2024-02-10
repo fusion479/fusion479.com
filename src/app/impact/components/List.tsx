@@ -38,10 +38,10 @@ export default function List() {
             } pt-20 items-center`}
           >
             <div className="p-10 bg-white shadow-md rounded-lg">
-              <p className="text-blue-500 tracking-wide text-lg sm:text-xl lg:text-2xl mb-1 font-medium font-merinda">
+              <p className="text-blue-500 tracking-wide text-lg sm:text-xl lg:text-2xl mb-1 font-medium">
                 {v.title}
               </p>
-              <h3 className="lg:text-3xl tracking-wide font-medium sm:text-2xl text-xl mb-4 font-merinda">
+              <h3 className="lg:text-3xl tracking-wide font-medium sm:text-2xl text-xl mb-4">
                 {v.subtitle}
               </h3>
               <p className="text-gray-500 text-sm lg:text-base">
