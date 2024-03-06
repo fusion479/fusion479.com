@@ -14,7 +14,7 @@ export default function Hero() {
       />
       <div className="xl:w-1/2 xl:mb-0 mb-6">
         <Title
-          bold="impacts,"
+          bold="motivators,"
           description="479's outreach fuels community impact through engaged collaboration and meaningful initiatives."
         />
       </div>
