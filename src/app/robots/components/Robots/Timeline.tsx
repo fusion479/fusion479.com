@@ -9,7 +9,7 @@ export default function Timeline({
 }) {
   return (
     <div className="border-l hidden xl:block pl-2">
-      {new Array(10).fill(0).map((_, i) => (
+      {new Array(3).fill(0).map((_, i) => (
         <div className="flex items-center" key={i} onClick={() => setActive(i)}>
           <div
             className={`border-t w-3 mr-2 ${i === active && "border-blue-700"}`}
@@ -22,7 +22,7 @@ export default function Timeline({
             }`}
           >
             <span className="inline-block font-light rounded-lg text-sm">
-              {2014 + i}: Lorem Isput
+              {2022 + i}: CENTERSTAGE
             </span>
           </button>
         </div>
