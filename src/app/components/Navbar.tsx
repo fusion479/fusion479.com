@@ -20,8 +20,8 @@ function Navlink({
   return (
     <Link
       href={href}
-      className={`w-full mb-[2px] md:mb-0 md:w-auto inline-block hover:-translate-y-1 duration-150 font-light rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-blue-600 ${
-        margin && "mr-6"
+      className={`w-full mb-[2px] md:mb-0 md:w-auto inline-block hover:-translate-y-1 duration-150 font-light rounded-lg px-4 py-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-blue-600 ${
+        margin && "mr-2"
       }`}
     >
       {children}
@@ -40,9 +40,9 @@ export default function Navbar() {
             <Image
               src={logo}
               alt="Image: Stuy Fusion logo"
-              className="h-16 w-16 mr-2"
+              className="h-10 w-10 mr-2"
             />
-            <span className="text-3xl font-medium text-blue-500">
+            <span className="text-xl font-medium text-blue-500">
               Stuy Fusion
             </span>
           </Link>
