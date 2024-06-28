@@ -4,7 +4,7 @@ import ftc from "../../../public/landing/ftc.jpeg";
 export default function Game() {
   return (
     <div>
-      <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-3xl md:text-5xl font-medium tracking-tight sm:text-6xl">
+      <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-3xl text-blue-600 md:text-5xl font-medium tracking-tight sm:text-4xl mb-8">
         FIRST Tech Challenge
       </h1>{" "}
       <div className="flex flex-col lg:flex-row mt-2 items-center justify-center">
@@ -26,7 +26,7 @@ export default function Game() {
         <Image
           src={ftc}
           alt="Image: picture of a FTC match"
-          className="lg:w-5/12 rounded-lg md:ml-6 mt-6"
+          className="lg:w-5/12 rounded-lg md:ml-6"
         />
       </div>
     </div>

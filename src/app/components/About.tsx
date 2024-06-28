@@ -4,17 +4,16 @@ import team from "../../../public/landing/team.jpeg";
 export default function About() {
   return (
     <div>
-      <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-5xl font-medium tracking-tight text-blue-600 sm:text-6xl">
-        Stuy
-        <span className="text-[#ff83c5]"> Fusion</span>.
+      <h1 className="max-w-4xl mb-8 mt-24 mx-auto text-center font-display text-3xl font-medium tracking-tight md:text-5xl text-blue-600 sm:text-48xl">
+        Who are we?
       </h1>{" "}
       <div className="flex flex-col lg:flex-row mt-2 items-center justify-center">
         <Image
           src={team}
           alt="Image: a photo of team 479's members together holding up a banner"
-          className="lg:w-5/12 rounded-lg md:mr-6 mt-6"
+          className="lg:w-5/12 rounded-lg md:mr-6"
         />
-        <div className="max-w-2xl mt-6 md:text-lg tracking-tight text-slate-700">
+        <div className="max-w-2xl md:text-lg tracking-tight text-slate-700">
           <p>
             We are Team 479 Stuy Fusion, a robotics team from Stuyvesant High
             School, NYC. Our team competes annually in the First Tech Challenge
