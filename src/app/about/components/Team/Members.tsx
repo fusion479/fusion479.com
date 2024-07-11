@@ -8,18 +8,13 @@ export default function Members() {
         { name: "Brandon Ngyuen", role: "Rookie Programmer" },
         { name: "Owen Shi", role: "Rookie Programmer" },
         { name: "Stephen Chen", role: "Rookie Engineer" },
-        { name: "Stas Chadrys", role: "Rookie Engineer" },
-        { name: "Raahat Amin", role: "Rookie Engineer" },
         { name: "Kayden Au", role: "Rookie Engineer" },
         { name: "Xuan Yao", role: "Rookie Engineer" },
         { name: "Zachary Aaron", role: "Rookie Engineer" },
-        { name: "Jayden Vallejo", role: "Rookie Engineer" },
-        { name: "Tasfia Bietea", role: "Rookie Engineer" },
         { name: "Kiran Yesley", role: "Rookie Engineer" },
         { name: "Jason Zhao", role: "Rookie Engineer" },
         { name: "Elizabeth Chen", role: "Rookie Engineer" },
         { name: "Kelly Lin", role: "Rookie Engineer" },
-        { name: "Erica You", role: "Rookie Engineer" },
         { name: "Ryan Kim", role: "Rookie Engineer" },
       ].map((v, i) => (
         <div key={i}>
