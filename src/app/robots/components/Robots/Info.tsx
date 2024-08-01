@@ -1,6 +1,17 @@
 import Image from "next/image";
 import powerplay from "../../../../../public/robots/powerplay.webp";
 
+const info = [
+  {
+    name: "John",
+    image: "powerplay.webp",
+    description: "",
+    awards: [],
+    videos: [],
+    ode: [],
+  },
+];
+
 export default function Info({ active }: { active: number }) {
   return (
     <div className="xl:max-w-4xl flex flex-col justify-center items-center">
