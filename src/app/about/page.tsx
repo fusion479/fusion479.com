@@ -1,5 +1,3 @@
-"use client";
-
 import Hero from "./components/Hero";
 import Container from "@/components/Container";
 import Slider from "./components/Slider";
