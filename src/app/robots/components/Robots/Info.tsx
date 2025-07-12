@@ -1,148 +1,120 @@
 import Image from "next/image";
-import powerplay from "../../../../../public/robots/powerplay.webp";
-import { act } from "react-dom/test-utils";
-import { title } from "process";
+import powerplay from "../../../../../public/robots/powerplay.png";
 
-const info = [
+export const info = [
   {
-    name: "[INTO THE DEEP NAME]",
+    name: "Into the Deep",
     image: powerplay,
     description: `The name of the 2024-2025 game is Into the Deep, where two alliances composed of two robots compete to score as many game pieces as possible. Game pieces can be two types, specimens, or samples. Specimens are scored on the colored bars found in the middle area of the field called the submersible. Specimens are created by the human player, found in the observation zone, who takes samples and attaches a hook that allows it to be attached to the bars. Samples are also found in the submersible zone, and are scored in each respective team's buckets. In the end game, teams can earn points by touching the bar, hanging on the first bar, or hanging on the second bar. `,
-    awards: [
-      " NYC Qualifier 2 Think Award Winner",
-    ],
-    videos: [
-      
-    ],
-    code: [
-      {link: "https://github.com/fusion479/deep.git", title: "GitHub"},      
-    ],
   },
+
   {
-    name: "Theo",
+    name: "Centerstage",
     image: powerplay,
     description: `In the 2023-2024 game Centerstage, robots attempted to score colored hexagonal game pieces called pixels onto a board called the backdrop. In the autonomous period, teams would preload their robot with pixels and could score them on the backdrop. During the teleop period, pixels would be obtained in through the human player which placed them down. The backdrop contained three lines, which gave teams bonus points for stacking pixels above the line. Another way of earning bonus points was through making mosaics, or three pixels that were all the same color, or all different colors (excluding white). Teams were able to make 1 of each of the 4 different mosaics, but in order for them they count they had to be covered in white pixels. During the endgame period, teams could score bonus points by shooting their drones, one small paper airplane that could land in three zones, each with increasing distance. Lastly, teams could hang on the middle of the field on the truss, which would gain them additional points.`,
-    awards: [
-      " NYC Qualifier 2 Think Award Winner",
-      " NYC Qualifier 2 Design Award 3rd Place",
-      " NYC Qualifier 4 Think Award Winner",
-      " NYC Super Qualifiers 1 Finalist Alliance 1st Pick",
-      " NYC Super Qualifiers 1 Think Award Winner",
-      " NYC Championship Finalist Alliance Captain",
-      " NYC Championship Finalist Design Award 3rd Place",
-      " NYC Championship Finalist Promote Award Winner",
-    ],
-    videos: [
-      {link: "https://youtu.be/1cGlKInUGVw?si=k56MmKQ53QeEoi6n", title: "Centerstage MTI Submission"},
-      {link: "https://youtu.be/ECyHcyyOW_I?si=x4e9TfUC0rPLX4vL", title: "NYC Championship Promote Award"},
-      {link: "https://youtu.be/6e-5Uo1dRic?si=6WXUNk3h8QvfVK4d", title: "Centerstage Game Animation"},
-
-    ],
-    code: [
-      {link: "https://github.com/fusion479/centerstage.git", title: "GitHub"},
-    ],
   },
 
   {
-    name: "Stephen",
+    name: "Power Play",
     image: powerplay,
-    description: `In 2022’s PowerPlay, two alliances consisting of two teams each competed to manipulate cones and score them on a grid system that was divided into different levels and areas. The challenge involved stacking these cones on top of junctions, which were essentially poles with scoring areas, in order to earn points. Teams could earn additional points through autonomous and teleoperated tasks, with an important focus on endgame strategies in which robots could "park" on the grid in specific ways to earn bonus points.
-
-`,
-    awards: [
-      " NYC Qualifier 3 Think Award 2nd Place",
-      " NYC Qualifier 3 Design Award Winner",
-      " NYC Qualifier 5 Winning Alliance 1st Pick",
-      " NYC Super Qualifier 2 Inspire Award 2nd Place",
-      " NYC Super Qualifier 2 Finalist Alliance 2nd Pick",
-      " NYC Super Qualifier 2 Innovate Award Winner",
-      " NYC Championship Inspire Award 3rd Place",
-      " NYC Championship Finalist Alliance 1st Pick",
-      " NYC Championship Motivate Award Winner",
-    ],
-    videos: [
-      {link: "https://youtu.be/iQ7rFubse38?si=W5AwveR3rZ7It94y", title: "PowerPlay MTI Submission"},
-      {link: "https://www.youtube.com/watch?v=HsitvZ0JaDc", title: "PowerPlay Game Animation"},
-    ],
-    code: [
-      {link: "https://github.com/fusion479/PowerPlay.git", title: "GitHub"},
-      {link: "https://ftcscout.org/events/2022/USNYNYBRQ3/matches", title: "NYC Qualifier 3"},
-      {link: "https://ftcscout.org/events/2022/USNYNYQUQ5/matches", title: "NYC Qualifier 5"},
-      {link: "https://ftcscout.org/events/2022/USNYNYNYSQ2/matches", title: "NYC Super Qualifier 2"},
-      {link: "https://ftcscout.org/events/2022/USNYNYCMP/matches", title: "NYC Championship"},
-    ],
+    description: `In 2022’s PowerPlay, two alliances consisting of two teams each competed to manipulate cones and score them on a grid system that was divided into different levels and areas. The challenge involved stacking these cones on top of junctions, which were essentially poles with scoring areas, in order to earn points. Teams could earn additional points through autonomous and teleoperated tasks, with an important focus on endgame strategies in which robots could "park" on the grid in specific ways to earn bonus points.`,
   },
 
   {
-    name: "[FREIGHT FRENZY NAME]",
+    name: "Freight Frenzy",
     image: powerplay,
-    description: ` `,
-    awards: [
-      " NYC Qualifier 3 Winning Alliance 1st Pick",
-      " NYC Qualifier 3 Design Award Winner",
-      " NYC Qualifier 5 Inspire Award 2nd Place",
-      " NYC Qualifier 5 Winning Alliance Captain",
-      " NYC Qualifier 5 Think Award 3rd Place",
-      " NYC Qualifier 5 Control Award Winner",
-      " NYC Qualifier 5 Design Award 3rd Place",
-      " NYC Championship Innovate Award 2nd Place",
-    ],
-    videos: [
-      {link: "https://youtu.be/eH5ao59nbVw?si=0V4ii-xrdjf4FPQK", title: "Freight Frenzy MTI Submission"},
-      {link: "https://youtu.be/I6lX12idAf8?si=EAl0b-AIL5TTtKcC", title: "Freight Frenzy Game Animation"},
-    ],
-    code: [
-      {link: "https://github.com/fusion479/freight_frenzy.git", title: "GitHub"},
-      
-    ],
+    description: `In the 2021–2022 season Freight Frenzy, FTC Team 479 designed a low-profile robot capable of traversing barriers and efficiently cycling freight into the alliance shipping hub. The robot used a custom intake and lift system to handle both cubes and balls. During autonomous, it spun the duck carousel and delivered preloaded freight. In endgame, it consistently parked in the warehouse and sometimes delivered last-minute freight. Our programming team optimized trajectory planning to reduce cycle time across a cluttered field.`,
   },
 
   {
-    name: "[ULTIMATE GOAL NAME]",
+    name: "Ultimate Goal",
     image: powerplay,
-    description: ` `,
-    awards: [
-      " NYC Qualifying Tournament 2 Top Ranked First Place",
-      " NYC Qualifying Tournament 2 Innovate Award Winner",
-      " NYC Qualifying Tournament 2 Design Award 2nd Place",
-      " NYC Championship Tournament Top Ranked 4th Place",
-      " NYC Championship Tournament Innovate Award Winner",
-    ],
-    videos: [
-      {link: "https://youtu.be/H3V3A7CgwPU?si=5GhWAm3kL2F3Ebrb", title: " Ultimate Goal Game Animation"},
-      
-
-    ],
-    code: [
-      {link: "https://github.com/fusion479/ultimate-goal.git", title: "GitHub"},
-    ],
+    description: `During Ultimate Goal in 2020–2021, Team 479 focused on building a precise ring-launching robot using a custom flywheel shooter. The robot could shoot power shots and upper tower goals accurately from various field positions. Autonomous included consistent triple power shot hits and initial ring delivery. Tele-op centered around rapid ring collection with a wide intake and minimal jam design. In endgame, the robot parked reliably while our drivers focused on controlling center field traffic.`,
   },
 
   {
-    name: "[SKYSTONE NAME]",
+    name: "Skystone",
     image: powerplay,
-    description: ` `,
-    awards: [
-      " NYC Qualifier 2 Finalist Alliance 1st Pick",
-      " NYC Qualifier 2 Think Award Winner",
-      " NYC Super Qualifier 1 Finalist Alliance 1st Pick",
-      " NYC Super Qualifier 1 Connect Award Winner",
-      " NYC Championship Connect Award 3rd Place",
-      " NYC Championship Design Award 2nd Place",
-    ],
-    videos: [
-      {link: "https://youtu.be/XiGB_8Ppnbs?si=mE0HokS-RQMvys5u", title: " Skystone Game Animation"},
-    ],
-    code: [
-      {link: "https://github.com/fusion479/skystone.git", title: "GitHub"},
-    ],
+    description: `In Skystone (2019–2020), FTC 479 developed a compact arm-based robot to grab Skystones and stack them quickly on the alliance foundation. Our autonomous consistently identified and retrieved Skystones, placing them with precision. During tele-op, we focused on high stacking while coordinating with our alliance to move the foundation. We implemented custom odometry to improve alignment and minimize drift. Endgame strategies involved repositioning the foundation and parking under the alliance bridge.`,
+  },
+
+  {
+    name: "Rover Ruckus",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Relic Recovery",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Velocity Vortex",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Res-Q",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Cascade Effect",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Block Party!",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Ring It Up!",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Bowled Over!",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Get Over It!",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Hot Shot!",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Face Off",
+    image: powerplay,
+    description: null,
+  },
+
+  {
+    name: "Quad Quandary",
+    image: powerplay,
+    description: null,
   },
 ];
 
 export default function Info({ active }: { active: number }) {
   return (
-    <div className="xl:max-w-4xl flex flex-col justify-center items-center">
-      <div className="text-center -translate-y-12 mb-4 text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+    <div className="xl:max-w-4xl flex flex-col items-center">
+      <div className="text-center -translate-y-12 mb-4 text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl pt-20">
         <span className="relative whitespace-nowrap text-blue-500">
           <svg
             aria-hidden="true"
@@ -159,52 +131,17 @@ export default function Info({ active }: { active: number }) {
         src={info[active].image}
         alt="Image: team 479's powerplay (2023 season) robot in a render"
       />
-      <p className="mt-6 max-w-3xl text-base tracking-wide text-slate-700">
-        {info[active].description}
-      </p>
-      <div className="border-t-[1px] w-3/4 ml-auto my-8 mr-auto border-slate-300" />
 
-      <div className="flex">
-        <div>
-          <span className="text-xl text-blue-500 tracking-wide font-semibold">
-            Awards
-          </span>
-          <ul className="ml-8">
-            {info[active].awards.map((v, i) => (
-              <li className="flex text-slate-500 text-sm font-semibold" key={i}>
-                <span className="mr-4 h-full">-</span> {v}
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <span className="text-xl text-blue-500 tracking-wide font-semibold">
-            Videos
-          </span>
-          <ul className="ml-8">
-            {info[active].videos.map((v, i) => (
-              <li className="flex text-slate-500 text-sm font-semibold" key={i}>
-                <span className="mr-4 h-full">-</span> 
-                <a href={v.link}> {v.title} </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <span className="text-xl text-blue-500 tracking-wide font-semibold">
-            Code & Records
-          </span>
-          <ul className="ml-8">
-            {info[active].code.map((v, i) => (
-              <li className="flex text-slate-500 text-sm font-semibold" key={i}>
-                <span className="mr-4 h-full">-</span> {v.title}
-              </li>
-            ))}
-          </ul>
+      <div className="relative pt-20">
+        <div className="border-l-[1px] border-slate-300 h-36 right-1/2 absolute top-0" />
+        <div className="p-10 bg-white shadow-md rounded-lg">
+          <p className="max-w-3xl text-base tracking-wide text-slate-700">
+            {info[active].description}
+          </p>
         </div>
       </div>
+
+      <div className="border-t-[1px] w-3/4 ml-auto my-8 mr-auto border-slate-300" />
     </div>
   );
 }

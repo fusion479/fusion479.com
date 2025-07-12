@@ -23,7 +23,11 @@ export default function Background({
       initial={{ opacity: 0.3 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="relative overflow-hidden pb-16 pt-20 lg:pt-32"
+      className={
+        window.location.pathname !== "/robots"
+          ? "relative overflow-hidden pb-16 pt-20 lg:pt-32"
+          : "relative overflow-hidden pb-16"
+      }
     >
       <Image
         className="absolute max-w-none -right-full sm:top-0 sm:right-0 sm:left-0 sm:mx-auto"
