@@ -24,7 +24,7 @@ export default function Background({
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
       className={
-        window.location.pathname !== "/robots"
+        typeof window !== "undefined" && window.location.pathname !== "/robots"
           ? "relative overflow-hidden pb-16 pt-20 lg:pt-32"
           : "relative overflow-hidden pb-16"
       }
