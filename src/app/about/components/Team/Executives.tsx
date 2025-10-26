@@ -1,26 +1,25 @@
 import Image from "next/image";
-import avatar from "../../../../../public/team/avatar.webp";
-import victoria from "../../../../../public/team/victoria.jpg";
-import megan from "../../../../../public/team/megan.jpg";
+import jason from "../../../../../public/team/jason.jpg";
+import owen from "../../../../../public/team/owen.jpg";
 
 export default function Executives() {
   return (
     <div className="gap-10 grid auto-rows-fr grid-cols-1 sm:grid-cols-2">
       {new Array(
         {
-          name: "Victoria Reguyal",
-          role: "President",
-          avatar: victoria,
+          name: "Jason Zhao",
+          role: "Head of Engineering",
+          avatar: jason,
           description:
-            "I’m a senior and I joined Team 479 as a freshman to learn about engineering and electronics while having fun with robots. Though I’ve been interested in STEM since elementary school, I started out with hardly any relevant experience. But in FTC, I have been a part of a warm community with people who push each other to learn and achieve more. Outside of school, I like to spend my time reading, playing games, and exploring the city.",
+            "In my sophomore year, I joined the FTC robotics team 479, feeling a mix of excitement and nerves. The world of robotics and engineering was new to me, and I was unsure of how I would fit in. However, as I spent more time with the team, I quickly became immersed in the technical challenges and collaborative environment. I developed a passion for engineering, learning new skills and concepts along the way. The support from my teammates helped me grow more confident, and I found myself contributing actively to the team's projects, gaining valuable experience in the process.",
         },
 
         {
-          name: "Megan Chan",
+          name: "Owen Shi",
           role: "Vice President",
-          avatar: megan,
+          avatar: owen,
           description:
-            "I joined the team as a sophomore, looking to learn more about mechanical engineering and electronics. Participating in the late-night meetings, I learned more about engineering and FTC in general. Learning from others, I began to take a role in our team for engineering. I’m excited to continue learning about robotics and strive to better my engineering skills to lead the engineering aspect of the team. Outside of school, I really enjoy sleeping in, playing video games, and buying weird snacks to try with friends.",
+            "I joined Stuy Fusion a little late, as a sophomore, unsure of where I could contribute. Determined to help out, I quickly immersed myself in learning FTC software and discovered my passion for programming and problem-solving. Being part of Stuy Fusion has sharpened my technical skills and taught me the value of collaboration and perseverance. Outside of robotics, I enjoy playing video games and swimming, both of which help me unwind and stay motivated in everything I do.",
         },
       ).map((v, i) => (
         <div
