@@ -3,6 +3,12 @@ import powerplay from "../../../../../public/robots/powerplay.png";
 
 export const info = [
   {
+    name: "Decode",
+    image: powerplay,
+    description: 'In the 2025-2026 game Decode, two alliances engage in a shooter-style competition where teams launch spherical artifacts into alliance-specific goals. These artifacts, 36 total, are composed of 24 purple and 12 green. Robots must collect and launch said artifacts from launch zones into corner goals, which then roll into ramps to form specific patterns or motifs for extra points. The obelisk, revealed at the start of each match, shows the motif for that game, and april tags are placed to identify each launch zone. In the endgame, robots park in an 18x18 inch square base, earning extra points depending on whether the robot is partially, or fully parked in the zone.
+'
+  },
+  {
     name: "Into the Deep",
     image: powerplay,
     description: `The name of the 2024-2025 game is Into the Deep, where two alliances composed of two robots compete to score as many game pieces as possible. Game pieces can be two types, specimens, or samples. Specimens are scored on the colored bars found in the middle area of the field called the submersible. Specimens are created by the human player, found in the observation zone, who takes samples and attaches a hook that allows it to be attached to the bars. Samples are also found in the submersible zone, and are scored in each respective team's buckets. In the end game, teams can earn points by touching the bar, hanging on the first bar, or hanging on the second bar. `,
