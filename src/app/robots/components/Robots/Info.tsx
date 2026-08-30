@@ -5,8 +5,7 @@ export const info = [
   {
     name: "Decode",
     image: powerplay,
-    description: 'In the 2025-2026 game Decode, two alliances engage in a shooter-style competition where teams launch spherical artifacts into alliance-specific goals. These artifacts, 36 total, are composed of 24 purple and 12 green. Robots must collect and launch said artifacts from launch zones into corner goals, which then roll into ramps to form specific patterns or motifs for extra points. The obelisk, revealed at the start of each match, shows the motif for that game, and april tags are placed to identify each launch zone. In the endgame, robots park in an 18x18 inch square base, earning extra points depending on whether the robot is partially, or fully parked in the zone.
-'
+    description: 'In the 2025-2026 game Decode, two alliances engage in a shooter-style competition where teams launch spherical artifacts into alliance-specific goals. These artifacts, 36 total, are composed of 24 purple and 12 green. Robots must collect and launch said artifacts from launch zones into corner goals, which then roll into ramps to form specific patterns or motifs for extra points. The obelisk, revealed at the start of each match, shows the motif for that game, and april tags are placed to identify each launch zone. In the endgame, robots park in an 18x18 inch square base, earning extra points depending on whether the robot is partially, or fully parked in the zone.',
   },
   {
     name: "Into the Deep",
