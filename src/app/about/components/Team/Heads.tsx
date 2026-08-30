@@ -22,7 +22,7 @@ export default function Heads() {
         },
 
         {
-          name: "Tasfia Bideta",
+          name: "Tasfia Bideeta",
           role: "Head of Marketing",
           avatar: avatar,
           description:
